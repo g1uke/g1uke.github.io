@@ -1,0 +1,160 @@
+#u86
+{
+	-pie-box-shadow: none;
+	-moz-box-shadow: 0px 0px 8px 2px rgba(0, 0, 0, 0.5);
+	-webkit-box-shadow: 0px 0px 8px 2px rgba(0, 0, 0, 0.5);
+	box-shadow: 0px 0px 8px 2px rgba(0, 0, 0, 0.5);
+	border-width: 6px;
+	border-style: solid;
+	border-color: #FFFFFF;
+	background-color: transparent;
+	-moz-border-radius: 60px;
+	-webkit-border-radius: 60px;
+	-khtml-border-radius: 60px;
+	border-radius: 60px;
+	-webkit-transform: matrix(0.9962,-0.0872,0.0872,0.9962,-14,15);
+	-ms-transform: matrix(0.9962,-0.0872,0.0872,0.9962,-14,15);
+	-o-transform: matrix(0.9962,-0.0872,0.0872,0.9962,-14,15);
+	transform: matrix(0.9962,-0.0872,0.0872,0.9962,-14,15);
+	position: relative;
+}
+
+#u86_clip
+{
+	overflow: hidden;
+}
+
+#u92-4
+{
+	color: #FFFFFF;
+	line-height: 72px;
+	font-size: 60px;
+	font-family: euphoria-script, sans-serif;
+	font-weight: 400;
+	-webkit-transform: matrix(0.9962,-0.0872,0.0872,0.9962,-2,22);
+	-ms-transform: matrix(0.9962,-0.0872,0.0872,0.9962,-2,22);
+	-o-transform: matrix(0.9962,-0.0872,0.0872,0.9962,-2,22);
+	transform: matrix(0.9962,-0.0872,0.0872,0.9962,-2,22);
+	position: relative;
+}
+
+#u206
+{
+	position: relative;
+	background: transparent url("../images/skp-forma%201%20copy%202.png") no-repeat left top;
+	background-size: contain;
+}
+
+#u206:hover
+{
+	background: transparent url("../images/skp-forma%201%20copy.png") no-repeat left top;
+	background-size: contain;
+}
+
+#u206:active
+{
+	background: transparent url("../images/skp-forma%201%20copy%202.png") no-repeat left top;
+	background-size: contain;
+}
+
+#u170
+{
+	position: relative;
+	background: transparent url("../images/vk-forma%201%20copy%202.png") no-repeat left top;
+	background-size: contain;
+}
+
+#u170:hover
+{
+	background: transparent url("../images/vk-forma%201%20copy.png") no-repeat left top;
+	background-size: contain;
+}
+
+#u170:active
+{
+	background: transparent url("../images/vk-forma%201%20copy%202.png") no-repeat left top;
+	background-size: contain;
+}
+
+#u151
+{
+	position: relative;
+	background: transparent url("../images/facebook.png") no-repeat left top;
+	background-size: contain;
+}
+
+#u151:hover
+{
+	background: transparent url("../images/facebook-forma%201%20copy.png") no-repeat left top;
+	background-size: contain;
+}
+
+#u151:active
+{
+	background: transparent url("../images/facebook-forma%201%20copy%202.png") no-repeat left top;
+	background-size: contain;
+}
+
+#u151.MuseLinkActive
+{
+	background: transparent url("../images/facebook-forma%201%20copy%202.png") no-repeat left top;
+	background-size: contain;
+}
+
+#u218
+{
+	position: relative;
+	background: transparent url("../images/twitter-forma%201%20copy%202.png") no-repeat left top;
+	background-size: contain;
+}
+
+#u218:hover
+{
+	background: transparent url("../images/twitter-forma%201%20copy.png") no-repeat left top;
+	background-size: contain;
+}
+
+#u218:active
+{
+	background: transparent url("../images/twitter-forma%201%20copy%202.png") no-repeat left top;
+	background-size: contain;
+}
+
+#u230
+{
+	position: relative;
+	background: transparent url("../images/google-plus-forma%201%20copy%202.png") no-repeat left top;
+	background-size: contain;
+}
+
+#u230:hover
+{
+	background: transparent url("../images/google-plus-forma%201%20copy.png") no-repeat left top;
+	background-size: contain;
+}
+
+#u230:active
+{
+	background: transparent url("../images/google-plus-forma%201%20copy%202.png") no-repeat left top;
+	background-size: contain;
+}
+
+#u182
+{
+	position: relative;
+	background: transparent url("../images/steam-forma%201%20copy%202.png") no-repeat left top;
+	background-size: contain;
+}
+
+#u182:hover
+{
+	background: transparent url("../images/steam-forma%201%20copy.png") no-repeat left top;
+	background-size: contain;
+}
+
+#u182:active
+{
+	background: transparent url("../images/steam-forma%201%20copy%202.png") no-repeat left top;
+	background-size: contain;
+}
+

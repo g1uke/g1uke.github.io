@@ -1,0 +1,181 @@
+.version.index /* version checker */
+{
+	color: #000012;
+	background-color: #1A7B3E;
+}
+
+.html
+{
+	background: #000000 url("../images/g1uke.jpg") no-repeat left top scroll;
+	background-size: cover;
+}
+
+#page
+{
+	z-index: 1;
+	width: 960px;
+	min-height: 665px;
+	padding-bottom: 10px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#pu86
+{
+	width: 0.01px;
+	padding-bottom: 22px;
+	margin-right: -10000px;
+	margin-top: 107px;
+	margin-left: 224px;
+}
+
+#u86
+{
+	z-index: 2;
+	width: 320px;
+	margin-right: -10000px;
+	margin-top: 7px;
+	left: 71px;
+}
+
+#u86 .clip_frame
+{
+	-webkit-border-radius: 54px 54px 54px 54px;
+}
+
+#u86_clip
+{
+	width: 320px;
+	height: 320px;
+}
+
+#u86_img
+{
+	margin-right: -12px;
+	margin-bottom: -2px;
+}
+
+#u92-4
+{
+	z-index: 4;
+	width: 507px;
+	min-height: 70px;
+	margin-right: -10000px;
+	margin-top: 350px;
+	left: 2px;
+}
+
+#u206
+{
+	z-index: 11;
+	width: 25px;
+	height: 25px;
+	margin-right: -10000px;
+	margin-top: 640px;
+	left: 273px;
+}
+
+#u206:hover
+{
+	margin: 640px -10000px 0px 0px;
+}
+
+#u170
+{
+	z-index: 9;
+	width: 25px;
+	height: 25px;
+	margin-right: -10000px;
+	margin-top: 640px;
+	left: 351px;
+}
+
+#u206:active,#u170:hover
+{
+	margin: 640px -10000px 0px 0px;
+}
+
+#u151
+{
+	z-index: 8;
+	width: 25px;
+	height: 25px;
+	margin-right: -10000px;
+	margin-top: 640px;
+	left: 429px;
+}
+
+#u170:active,#u151:hover
+{
+	margin: 640px -10000px 0px 0px;
+}
+
+#u151:active
+{
+	margin: 640px -10000px 0px 0px;
+}
+
+#u218
+{
+	z-index: 12;
+	width: 25px;
+	height: 25px;
+	margin-right: -10000px;
+	margin-top: 640px;
+	left: 507px;
+}
+
+#u151.MuseLinkActive,#u218:hover
+{
+	margin: 640px -10000px 0px 0px;
+}
+
+#u230
+{
+	z-index: 13;
+	width: 25px;
+	height: 25px;
+	margin-right: -10000px;
+	margin-top: 640px;
+	left: 585px;
+}
+
+#u218:active,#u230:hover
+{
+	margin: 640px -10000px 0px 0px;
+}
+
+#u182
+{
+	z-index: 10;
+	width: 25px;
+	height: 25px;
+	margin-right: -10000px;
+	margin-top: 640px;
+	left: 663px;
+}
+
+#u230:active,#u182:hover
+{
+	margin: 640px -10000px 0px 0px;
+}
+
+#u182:active
+{
+	margin: 640px -10000px 0px 0px;
+}
+
+body
+{
+	position: relative;
+	min-width: 960px;
+	padding-top: 36px;
+	padding-bottom: 10px;
+}
+
+#page .verticalspacer
+{
+	clear: both;
+	margin-bottom: -640px;
+}
+

@@ -1,8 +1,8 @@
-<manifest alg="2" build="30" opt="false" iceEnabled="true" exportTarget="other" resolutions="1x" timestamp="1430685019364">
+<manifest alg="2" build="30" opt="false" iceEnabled="true" exportTarget="other" resolutions="1x" timestamp="1430771685166">
   <folder name="css">
     <file name="site_global.css" crc="3995653770"/>
-    <file name="index.css" crc="303725374" ref="index"/>
-    <file name="master_______-_-g1uke-_-________.css" crc="4027672155" ref="index"/>
+    <file name="index.css" crc="283877769" ref="index"/>
+    <file name="master_______-_-g1uke-_-________.css" crc="60388171" ref="index"/>
   </folder>
   <folder name="scripts">
     <file name="jquery-1.8.3.min.js" crc="4245411419" ref="index"/>
@@ -28,6 +28,8 @@
     <file name="google-plus-forma 1 copy.png" crc="3897494968" ref="index"/>
     <file name="steam-forma 1 copy 2.png" crc="4252465556" ref="index"/>
     <file name="steam-forma 1 copy.png" crc="4177901200" ref="index"/>
+    <file name="phone.png" crc="4061147342" ref="index"/>
+    <file name="email.png" crc="161365987" ref="index"/>
   </folder>
-  <file name="index.html" crc="25124414" mt="1430684347843" redirect="true"/>
+  <file name="index.html" crc="4067694643" mt="1430771660620" redirect="true"/>
 </manifest>

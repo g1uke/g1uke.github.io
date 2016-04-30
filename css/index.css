@@ -1,7 +1,7 @@
 .version.index /* version checker */
 {
-	color: #0000FD;
-	background-color: #728CA5;
+	color: #0000FB;
+	background-color: #788519;
 }
 
 .html
@@ -107,9 +107,9 @@
 	z-index: 4;
 	width: 507px;
 	min-height: 70px;
-	color: #FFFFFF;
-	font-size: 60px;
 	line-height: 72px;
+	font-size: 60px;
+	color: #FFFFFF;
 	font-family: euphoria-script, sans-serif;
 	font-weight: 400;
 	-webkit-transform: matrix(0.9945,-0.1045,0.1045,0.9945,-2,27);

@@ -1,7 +1,7 @@
 .version.index /* version checker */
 {
-	color: #0000FB;
-	background-color: #788519;
+	color: #000012;
+	background-color: #66F6A4;
 }
 
 .html
@@ -23,7 +23,7 @@
 #ppu367
 {
 	width: 0.01px;
-	padding-bottom: 0px;
+	padding-bottom: 1px;
 	margin-right: -10000px;
 	margin-top: 19px;
 	margin-left: 178px;
@@ -50,76 +50,16 @@
 	left: 490px;
 }
 
-#pu385
-{
-	width: 0.01px;
-	padding-bottom: 26px;
-	margin-left: 46px;
-	margin-top: 102px;
-}
-
-#u385
+#u458
 {
 	z-index: 2;
-	width: 320px;
-	-pie-box-shadow: none;
-	-moz-box-shadow: 0px 0px 8px 2px rgba(0, 0, 0, 0.5);
-	-webkit-box-shadow: 0px 0px 8px 2px rgba(0, 0, 0, 0.5);
-	box-shadow: 0px 0px 8px 2px rgba(0, 0, 0, 0.5);
-	border-width: 6px;
-	border-style: solid;
-	border-color: #FFFFFF;
-	background-color: transparent;
-	-moz-border-radius: 60px;
-	-webkit-border-radius: 60px;
-	-khtml-border-radius: 60px;
-	border-radius: 60px;
-	-webkit-transform: matrix(0.9945,-0.1045,0.1045,0.9945,-16,18);
-	-ms-transform: matrix(0.9945,-0.1045,0.1045,0.9945,-16,18);
-	-o-transform: matrix(0.9945,-0.1045,0.1045,0.9945,-16,18);
-	transform: matrix(0.9945,-0.1045,0.1045,0.9945,-16,18);
+	width: 406px;
+	opacity: 0.9;
+	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=90)";
+	filter: alpha(opacity=90);
+	margin-left: 99px;
+	margin-top: 237px;
 	position: relative;
-	margin-right: -10000px;
-	margin-top: 9px;
-	left: 89px;
-}
-
-#u385 .clip_frame
-{
-	-webkit-border-radius: 54px 54px 54px 54px;
-}
-
-#u385_clip
-{
-	overflow: hidden;
-	width: 320px;
-	height: 320px;
-}
-
-#u385_img
-{
-	margin-right: -12px;
-	margin-bottom: -2px;
-}
-
-#u387-4
-{
-	z-index: 4;
-	width: 507px;
-	min-height: 70px;
-	line-height: 72px;
-	font-size: 60px;
-	color: #FFFFFF;
-	font-family: euphoria-script, sans-serif;
-	font-weight: 400;
-	-webkit-transform: matrix(0.9945,-0.1045,0.1045,0.9945,-2,27);
-	-ms-transform: matrix(0.9945,-0.1045,0.1045,0.9945,-2,27);
-	-o-transform: matrix(0.9945,-0.1045,0.1045,0.9945,-2,27);
-	transform: matrix(0.9945,-0.1045,0.1045,0.9945,-2,27);
-	position: relative;
-	margin-right: -10000px;
-	margin-top: 355px;
-	left: 2px;
 }
 
 #u206
@@ -128,13 +68,37 @@
 	width: 25px;
 	height: 25px;
 	margin-right: -10000px;
-	margin-top: 602px;
+	margin-top: 634px;
 	left: 273px;
 }
 
 #u206:hover
 {
-	margin: 602px -10000px 0px 0px;
+	margin: 634px -10000px 0px 0px;
+}
+
+#pu468-4
+{
+	width: 0.01px;
+	padding-bottom: 0px;
+	margin-right: -10000px;
+	margin-top: 551px;
+	margin-left: 305px;
+}
+
+#u468-4
+{
+	z-index: 4;
+	display: block;
+	vertical-align: top;
+	position: relative;
+}
+
+#pu170
+{
+	width: 0.01px;
+	margin-left: 45px;
+	margin-top: 49px;
 }
 
 #u170
@@ -143,13 +107,11 @@
 	width: 25px;
 	height: 25px;
 	margin-right: -10000px;
-	margin-top: 602px;
-	left: 351px;
 }
 
-#u206:active,#u170:hover
+#u170:hover
 {
-	margin: 602px -10000px 0px 0px;
+	margin: 0px -10000px 0px 0px;
 }
 
 #u151
@@ -158,18 +120,17 @@
 	width: 25px;
 	height: 25px;
 	margin-right: -10000px;
-	margin-top: 602px;
-	left: 429px;
+	left: 78px;
 }
 
 #u170:active,#u151:hover
 {
-	margin: 602px -10000px 0px 0px;
+	margin: 0px -10000px 0px 0px;
 }
 
 #u151:active
 {
-	margin: 602px -10000px 0px 0px;
+	margin: 0px -10000px 0px 0px;
 }
 
 #u218
@@ -178,13 +139,12 @@
 	width: 25px;
 	height: 25px;
 	margin-right: -10000px;
-	margin-top: 602px;
-	left: 507px;
+	left: 156px;
 }
 
 #u151.MuseLinkActive,#u218:hover
 {
-	margin: 602px -10000px 0px 0px;
+	margin: 0px -10000px 0px 0px;
 }
 
 #u230
@@ -193,13 +153,17 @@
 	width: 25px;
 	height: 25px;
 	margin-right: -10000px;
-	margin-top: 602px;
-	left: 585px;
+	left: 234px;
 }
 
 #u218:active,#u230:hover
 {
-	margin: 602px -10000px 0px 0px;
+	margin: 0px -10000px 0px 0px;
+}
+
+#u230:active
+{
+	margin: 0px -10000px 0px 0px;
 }
 
 #u182
@@ -208,18 +172,18 @@
 	width: 25px;
 	height: 25px;
 	margin-right: -10000px;
-	margin-top: 602px;
+	margin-top: 634px;
 	left: 663px;
 }
 
-#u230:active,#u182:hover
+#u206:active,#u182:hover
 {
-	margin: 602px -10000px 0px 0px;
+	margin: 634px -10000px 0px 0px;
 }
 
 #u182:active
 {
-	margin: 602px -10000px 0px 0px;
+	margin: 634px -10000px 0px 0px;
 }
 
 body
@@ -232,6 +196,6 @@ body
 #page .verticalspacer
 {
 	clear: both;
-	margin-bottom: -602px;
+	margin-bottom: -550px;
 }
 

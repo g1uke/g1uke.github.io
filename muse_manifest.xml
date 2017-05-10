@@ -1,8 +1,7 @@
-<manifest alg="2" build="30" opt="false" iceEnabled="true" exportTarget="other" resolutions="1x" timestamp="1486587315026">
+<manifest alg="2" build="30" opt="false" iceEnabled="true" exportTarget="other" resolutions="1x" timestamp="1494426542035">
   <folder name="css">
     <file name="site_global.css" crc="3995653770"/>
-    <file name="master_______-_-g1uke-_-________.css" crc="60388171" ref="index"/>
-    <file name="index.css" crc="308737700" ref="index"/>
+    <file name="index.css" crc="335119335" ref="index"/>
   </folder>
   <folder name="scripts">
     <file name="jquery-1.8.3.min.js" crc="4245411419" ref="index"/>
@@ -13,23 +12,7 @@
   <folder name="images">
     <file name="максим-«-g1uke-»-ведерник-favicon.ico" crc="3865564037" ref="index"/>
     <file name="g1uke.jpg" crc="318830441" ref="index"/>
-    <file name="tel.png" crc="4005569945" ref="index"/>
-    <file name="email.png" crc="518949971" ref="index"/>
-    <file name="vmv-su.png" crc="3768793686" ref="index"/>
-    <file name="skp-forma 1 copy 2.png" crc="4252352394" ref="index"/>
-    <file name="skp-forma 1 copy.png" crc="4270845578" ref="index"/>
-    <file name="u468-4.png" crc="375855468" ref="index"/>
-    <file name="vk-forma 1 copy 2.png" crc="3828061610" ref="index"/>
-    <file name="vk-forma 1 copy.png" crc="345977067" ref="index"/>
-    <file name="facebook.png" crc="478260005" ref="index"/>
-    <file name="facebook-forma 1 copy.png" crc="138179260" ref="index"/>
-    <file name="facebook-forma 1 copy 2.png" crc="478260005" ref="index"/>
-    <file name="twitter-forma 1 copy 2.png" crc="518424071" ref="index"/>
-    <file name="twitter-forma 1 copy.png" crc="3801702041" ref="index"/>
-    <file name="google-plus-forma 1 copy 2.png" crc="4169988095" ref="index"/>
-    <file name="google-plus-forma 1 copy.png" crc="3897494968" ref="index"/>
-    <file name="steam-forma 1 copy 2.png" crc="4252465556" ref="index"/>
-    <file name="steam-forma 1 copy.png" crc="4177901200" ref="index"/>
+    <file name="vmv-su-u458.png" crc="3794411597" ref="index"/>
   </folder>
-  <file name="index.html" crc="3925153042" mt="1486586625382" redirect="true"/>
+  <file name="index.html" crc="3783909574" mt="1494426509855" redirect="true"/>
 </manifest>

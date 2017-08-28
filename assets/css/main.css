@@ -1252,7 +1252,7 @@
 			}
 
 		#header .logo {
-			width: 9.5rem;
+			
 			
 			
 			border: solid 1px #ffffff;
@@ -1266,7 +1266,7 @@
     min-width: 7.5rem;
     height: 2.75rem;
     line-height: 2.75rem;
-    padding: 0 1.25rem 0 1.5rem;
+    padding: 0 1.25rem 0 1.8rem;
     text-transform: uppercase;
     letter-spacing: 0.5rem;
     font-size: 1.2rem;
@@ -1425,7 +1425,7 @@
 
 			#header .logo {
 				width: 7.25rem;
-				height: 2.25rem;
+				
 				
 				
 			}

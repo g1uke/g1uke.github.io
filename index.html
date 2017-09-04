@@ -8,9 +8,31 @@
 		<link rel="stylesheet" href="assets/css/main.css" />
 		<!--[if lte IE 9]><link rel="stylesheet" href="assets/css/ie9.css" /><![endif]-->
 		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+		<style>
+		#page-preloader {
+    position: fixed;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    background: #000;
+    z-index: 100500;
+}
+
+#page-preloader .spinner {
+    width: 64px;
+    height: 64px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    background: url('images/spinner.gif') no-repeat 50% 50%;
+    margin: -32px 0 0 -32px;
+}
+		</style>
 		
 	</head>
 	<body>
+	<div id="page-preloader"><span class="spinner"></span></div>
 	<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
 <script>
   (adsbygoogle = window.adsbygoogle || []).push({
@@ -186,5 +208,13 @@ EasyPay - 06311726
 </script>
 <noscript><div><img src="https://mc.yandex.ru/watch/44554629" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
 <!-- /Yandex.Metrika counter -->
+<script type="text/javascript">
+		$(window).on('load', function () {
+    var $preloader = $('#page-preloader'),
+        $spinner   = $preloader.find('.spinner');
+    $spinner.fadeOut();
+    $preloader.delay(350).fadeOut('slow');
+});
+</script>
 	</body>
 </html>

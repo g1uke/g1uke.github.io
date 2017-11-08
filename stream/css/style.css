@@ -467,3 +467,35 @@ h6 {
 .col-lg-offset-1{margin-left: 8.33333333%;}
 .col-lg-offset-0{margin-left: 0;}
 }
+.zaramka{
+  
+  height: 487px;
+  width: 865px;
+  margin: 0;
+  position: relative;
+  text-align: center;
+  font-size: 3em;
+  top: 102px;
+  left: 43px;
+}
+.zaramka-pubg{
+  
+  height: 487px;
+  width: 865px;
+  margin: 0;
+  position: relative;
+  text-align: center;
+  font-size: 3em;
+  top: 102px;
+  left: 43px;
+}
+
+video {
+  position: absolute;
+  left: 0;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  margin: auto;
+  z-index: -1;
+}

@@ -124,7 +124,78 @@ h6 {
     top:0;
     z-index:1;
 }
-
+.backwrap4 {
+    
+    background-image:url(../icons/rmk54.png);
+    background-repeat:no-repeat;
+    background-size:100% 100%;
+    width:1280px;
+    height:720px;
+    position:fixed;
+    left:0;
+    top:0;
+    z-index:1;
+}
+.backwrap5 {
+    
+    background-image:url(../icons/rmk54g1.png);
+    background-repeat:no-repeat;
+    background-size:100% 100%;
+    width:1280px;
+    height:720px;
+    position:fixed;
+    left:0;
+    top:0;
+    z-index:1;
+}
+.backwrap6 {
+    
+    background-image:url(../icons/rmk54sms.png);
+    background-repeat:no-repeat;
+    background-size:100% 100%;
+    width:1280px;
+    height:720px;
+    position:fixed;
+    left:0;
+    top:0;
+    z-index:1;
+}
+.backwrap7 {
+    
+    background-image:url(../icons/rmk.png);
+    background-repeat:no-repeat;
+    background-size:100% 100%;
+    width:1280px;
+    height:720px;
+    position:fixed;
+    left:0;
+    top:0;
+    z-index:1;
+}
+.backwrap8 {
+    
+    background-image:url(../icons/rmk-g1.png);
+    background-repeat:no-repeat;
+    background-size:100% 100%;
+    width:1280px;
+    height:720px;
+    position:fixed;
+    left:0;
+    top:0;
+    z-index:1;
+}
+.backwrap9 {
+    
+    background-image:url(../icons/rmk-sms.png);
+    background-repeat:no-repeat;
+    background-size:100% 100%;
+    width:1280px;
+    height:720px;
+    position:fixed;
+    left:0;
+    top:0;
+    z-index:1;
+}
 .wrapper {
     margin-top:0!important;
     position:relative;

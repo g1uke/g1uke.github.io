@@ -441,6 +441,7 @@ body{
     left: 0;
     width: 100%;
     position: fixed;
+    z-index: 999;
 }
 
 .header__wrapper{
@@ -537,3 +538,18 @@ body{
 }
 
 /* Content Style End */
+
+/* Footer Style Start */
+.footer{
+    background-color: #352d39;
+    opacity: .5;
+    padding: 25px 0;
+    width: 1120px;
+    margin: 0 auto;
+    box-shadow: 1px 1px 2px black, 0 0 1em black;
+    text-align: center;
+    color: #fffcf9;
+}
+
+
+/* Footer Style End */

@@ -539,7 +539,7 @@ img{
     padding: 50px;
 }
 .content__title{
-    font-weight: 900px;
+    font-weight: 900;
     font-size: 35px;
     line-height: 60px;
     text-transform: uppercase;
@@ -604,7 +604,20 @@ img{
     padding: 10px 30px;
     text-decoration: none;
 }
-
+.content__warning{
+    padding: 30px 50px;
+    margin: 0 -50px;
+    background-color: #6d435a;
+    color: #fff;
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 60px;
+    text-transform: uppercase;
+    text-align: center;
+}
+.war-tel{
+    color: #ffd644;
+}
 /* Content Style End */
 
 

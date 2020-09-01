@@ -432,8 +432,8 @@ body{
     min-width: 1120px;
 }
 
-/* Header Style Start */
 
+/* Header Style Start */
 .header{
     background-color: #352D39;
     opacity: .9;
@@ -481,12 +481,10 @@ body{
 .header__link:hover, .header__link:focus, .header__link:active{
     opacity: .75;
 }
-
 /* Header Style End */
 
 
 /* intro Style Start */
-
 .intro{
     
     background-size: cover;
@@ -499,8 +497,10 @@ body{
 }
 .intro__logo-pic{
     width: 200px;
-
 }
+.intro__title-text-svg {
+    fill: #fffcf9;
+  }
 .intro__title-text{
     margin-top: 50px;
     margin-left: 50px;
@@ -536,8 +536,8 @@ body{
     position: relative;
     padding: 50px;
 }
-
 /* Content Style End */
+
 
 /* Footer Style Start */
 .footer{
@@ -550,6 +550,4 @@ body{
     text-align: center;
     color: #fffcf9;
 }
-
-
 /* Footer Style End */

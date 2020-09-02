@@ -433,7 +433,21 @@ img{
     padding: 0 50px;
     min-width: 1120px;
 }
-
+.to-up {
+    position: fixed;
+    bottom: 80px;
+    right: 40px;
+    z-index: 9999;
+    width: 30px;
+    height: 30px;
+    text-align: center;
+    line-height: 30px;
+    background: #352D39;
+    color: #b1ede8;
+    cursor: pointer;
+    border-radius: 2px;
+    display: none;
+}
 
 
 /* Header Style Start */
@@ -618,6 +632,17 @@ img{
 }
 .war-tel{
     color: #ffd644;
+}
+
+.content__reviews{
+    padding: 50px 50px;
+    margin: 0 -50px;
+    background-color: #b1ede8;
+    color: #000;
+    
+    
+    text-transform: uppercase;
+    
 }
 /* Content Style End */
 

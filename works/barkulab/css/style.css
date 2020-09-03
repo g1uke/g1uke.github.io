@@ -571,6 +571,17 @@ img{
     box-shadow: 0px 0px 8px 0px rgba(0, 0, 0, 0.20);
     position: relative;
 }
+.content__cards2{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-column-gap: 30px;
+    padding: 40px 0 80px 0;
+}
+.content__card2{
+    border-radius: 8px;
+    box-shadow: 0px 0px 8px 0px rgba(0, 0, 0, 0.20);
+    position: relative;
+}
 .t609__bgimg {
     background-size: cover;
     background-repeat: no-repeat;

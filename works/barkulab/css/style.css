@@ -786,7 +786,7 @@ img{
   } */
 
   .slider__item {
-    height: 220px;
+    height: 210px;
     overflow: hidden;
     position: relative;
   }
@@ -795,8 +795,7 @@ img{
     position: absolute;
     left: 5%;
     right: 5%;
-    top: 36px;
-    bottom: 36px;
+    top: 10px;
     overflow: hidden;
     
     text-align: center;
@@ -846,9 +845,9 @@ img{
   }
 
   .slider__item_post {
-    font-size: 20px;
+    font-size: 18px;
     margin-bottom: 8px;
-    color: #000000;
+    color: #352d39;
   }
 
   .slider__item_text {

@@ -423,9 +423,7 @@ body{
     background-size: cover;
 
 }
-img{
-    max-width: 100%;
-}
+
 
 .wrapper{
     max-width: 1120px;
@@ -564,23 +562,25 @@ img{
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     grid-column-gap: 30px;
-    padding: 40px 0 80px 0;
+    padding: 0px 0 80px 0;
 }
 .content__card{
     border-radius: 8px;
     box-shadow: 0px 0px 8px 0px rgba(0, 0, 0, 0.20);
     position: relative;
+    margin-top: 30px;
 }
 .content__cards2{
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     grid-column-gap: 30px;
-    padding: 40px 0 80px 0;
+    padding: 0px 0 80px 0;
 }
 .content__card2{
     border-radius: 8px;
     box-shadow: 0px 0px 8px 0px rgba(0, 0, 0, 0.20);
     position: relative;
+    margin-top: 30px;
 }
 .t609__bgimg {
     background-size: cover;
@@ -650,11 +650,18 @@ img{
     margin: 0 -50px;
     background-color: #b1ede8;
     color: #000;
-    
-    
     text-transform: uppercase;
-    
 }
+
+.vk777{
+    margin: 0 auto;
+    display: inline-block;
+    grid-template-columns: repeat(2, 1fr);
+    grid-column-gap: 30px;
+}
+
+
+
 
 /* стили основного контейнера слайдера */
 .slider {
@@ -866,6 +873,9 @@ img{
     color: #000000;
   }
 
+
+
+
 /* Content Style End */
 
 
@@ -881,3 +891,5 @@ img{
     color: #fffcf9;
 }
 /* Footer Style End */
+
+

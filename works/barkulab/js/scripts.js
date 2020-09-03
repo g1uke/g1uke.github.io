@@ -225,3 +225,34 @@ jQuery(($) => {
                     slideShow('.slider', {
                       isAutoplay: true
                     });
+
+//инициализируем галерею ДО запуска слайдера
+var gallery = $('.slide a');
+//при клике на ссылку в слайде запускаем галерею
+$('.slide a').on('click', function(e) {
+  e.preventDefault();
+  //узнаём индекс слайда без учёта клонов
+  var totalSlides = +$(this).parents('.slider777').slick("getSlick").slideCount,
+      dataIndex = +$(this).parents('.slide').data('slick-index'),
+      trueIndex;
+  switch(true){
+    case (dataIndex<0):
+      trueIndex = totalSlides+dataIndex; break;
+    case (dataIndex>=totalSlides):
+      trueIndex = dataIndex%totalSlides; break;
+    default: 
+      trueIndex = dataIndex;
+  }  
+  //вызывается элемент галереи, соответствующий индексу слайда
+  $.fancybox.open(gallery,{}, trueIndex);
+  return false;
+});
+
+$('.slider777').slick({
+  slidesToShow: 3,
+  arrows: true,
+  dots: true,
+  customPaging: function() {
+    return ''
+  }
+});

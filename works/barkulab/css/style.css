@@ -521,7 +521,7 @@ body{
     margin-left: 50px;
 }
 .intro__title{
-    font-weight: 900px;
+    font-weight: 900;
     font-size: 60px;
     line-height: 60px;
     font-style: ;
@@ -529,12 +529,20 @@ body{
     text-shadow: 1px 1px 2px black, 0 0 1em black; /* Параметры тени */
 }
 .intro__title-s{
-    font-weight: 500px;
+    font-weight: 500;
     font-size: 40px;
     line-height: 60px;
     font-style: italic;
     color: #ffd644;
     text-shadow: 1px 1px 2px black, 0 0 1em black; /* Параметры тени */
+}
+.intro__title-j{
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 20px;
+    letter-spacing: 4px;
+    color: #fffcf9;
+    text-transform: uppercase;
 }
 /* intro Style End */
 
@@ -882,13 +890,28 @@ body{
 /* Footer Style Start */
 .footer{
     background-color: #352d39;
-    opacity: .5;
-    padding: 25px 0;
+    opacity: .7;
+    padding: 50px 0;
     width: 1120px;
     margin: 0 auto;
     box-shadow: 1px 1px 2px black, 0 0 1em black;
-    text-align: center;
+    
     color: #fffcf9;
+}
+.footer__cards{
+    display: grid;
+    grid-template-columns: 5fr 1fr;
+    grid-column-gap: 30px;
+    
+}
+.footer__card{
+    font-size: 20px;
+    font-weight: 500;
+    text-align: justify;
+    
+    position: relative;
+    color: #ffd644;
+    text-shadow: 1px 1px 2px black, 0 0 1em black;
 }
 /* Footer Style End */
 

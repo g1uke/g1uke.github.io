@@ -1,3 +1,10 @@
+(function($) {
+  $(function() {
+     $('.vk777').EmbedVkGallery();
+  });
+})(jQuery);
+
+
 jQuery(($) => {
     $(window).scroll(function(){
         if ($(this).scrollTop() > 580) $('.to-up').fadeIn();
@@ -256,3 +263,4 @@ $('.slider777').slick({
     return ''
   }
 });
+

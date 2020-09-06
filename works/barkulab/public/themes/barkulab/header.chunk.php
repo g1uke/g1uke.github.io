@@ -2,8 +2,8 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=1280, initial-scale=1.0">
-    <title><?php echo Site::name() . ' - ' . Site::title(); ?></title>
+    <meta name="viewport" content="width=1280">
+    <title><?php echo Site::title() . ' - ' . Site::name(); ?></title>
     <meta name="description" content="<?php echo Site::description(); ?>">
     <meta name="keywords" content="<?php echo Site::keywords(); ?>">
     <meta name="robots" content="<?php echo Page::robots(); ?>">
@@ -17,19 +17,20 @@
     <meta property="og:url" content="http://barkulab.by/">
     <meta property="og:description" content="Центр образования взрослых «Баркулаб» - это комплекс учебных курсов в г.Быхов, где Вы сможете приобрести новые навыки, реализовать давнюю мечту либо открыть свое дело. Мы открываем для Вас возможность повысить профессиональные и личностные компетенции, не выезжая за пределы города и в оптимальные сроки.">
     <meta property="og:type" content="website">
-    <meta property="og:image" content="http://barkulab.by/img/ogimg.png"> 
-    <link rel="stylesheet" href="/public/themes/barkulab/css/style.css">
-    <link rel="stylesheet" href="/public/themes/barkulab/libs/fontawesome/css/all.css">
-    <link rel="stylesheet" href="/public/themes/barkulab/css/lightbox.css">
-    <script src="/public/themes/barkulab/js/jquery-3.5.1.min.js"></script>
+    <meta property="og:image" content="<?php echo Site::url(); ?>/img/ogimg.png"> 
+    <link rel="stylesheet" href="<?php echo Site::url(); ?>/public/themes/barkulab/css/style.css">
+    <link rel="stylesheet" href="<?php echo Site::url(); ?>/public/themes/barkulab/libs/fontawesome/css/all.css">
+    <link rel="stylesheet" href="<?php echo Site::url(); ?>/public/themes/barkulab/css/lightbox.css">
+    <script src="<?php echo Site::url(); ?>/public/themes/barkulab/js/jquery-3.5.1.min.js"></script>
         <!-- HTML5 shim, for IE6-8 support of HTML5 elements -->
     <!--[if lt IE 9]>
       <script src="//cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7/html5shiv.js"></script>
     <![endif]-->
-
+    <meta name="yandex-verification" content="9521131e4c14975a" />
     <!-- Fav-icons -->
     <link rel="icon" href="<?php echo Site::url(); ?>/favicon.ico" type="image/x-icon">
     <link rel="shortcut icon" href="<?php echo Site::url(); ?>/favicon.ico" type="image/x-icon">
+    <?php echo Snippet::get("yandex-metrika"); ?>
 </head>
 <body>
 <div class="to-up">&uarr;</div>
@@ -42,16 +43,16 @@
                 <nav class="header__nav">
                     <ul class="header__list">
                         <li class="header__item">
-                            <a href="/" class="header__link">Главная</a>
+                            <a href="<?php echo Site::url(); ?>" class="header__link">Главная</a>
                         </li>
                         <li class="header__item">
-                            <a href="/about" class="header__link">О нас</a>
+                            <a href="<?php echo Site::url(); ?>/about" class="header__link">О нас</a>
                         </li>
                         <!--<li class="header__item">
                             <a href="/blog" class="header__link">Блог</a>
                         </li>-->
                         <li class="header__item">
-                            <a href="/contacts" class="header__link">Контакты</a>
+                            <a href="<?php echo Site::url(); ?>/contacts" class="header__link">Контакты</a>
                         </li>
                     </ul>
                 </nav>    
@@ -122,8 +123,8 @@
         <div class="wrapper">
             <div class="intro__logo">
                 <div class="intro__logo-img">
-                    <a href="/" class="intro__logo-link">
-                      <img src="/public/themes/barkulab/img/logo.png" alt="" class="intro__logo-pic">
+                    <a href="<?php echo Site::url(); ?>" class="intro__logo-link">
+                      <img src="<?php echo Site::url(); ?>/public/themes/barkulab/img/logo.png" alt="" class="intro__logo-pic">
                   </a>
                 </div>
                 <div class="intro__title-text">

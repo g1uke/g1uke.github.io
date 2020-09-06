@@ -1,23 +1,21 @@
 ﻿<?php
 
 /* Задаем переменные */
-$curs = htmlspecialchars($_POST["curs"]);
 $name = htmlspecialchars($_POST["name"]);
-$tel = htmlspecialchars($_POST["tel"]);
 $email = htmlspecialchars($_POST["email"]);
+$message = htmlspecialchars($_POST["message"]);
 $bezspama = htmlspecialchars($_POST["bezspama"]);
 
 /* Ваш адрес и тема сообщения */
 $address = "barkulab.by@yandex.by";
-$sub = "Запись на курс - barkulab.by";
+$sub = "Электронное обращение с сайта barkulab.by";
 
 /* Формат письма */
-$mes = "Запись на курс - $curs \n
-
+$mes = "Электронное обращение с сайта barkulab.by\n
 Имя отправителя: $name 
-Телефон отправителя: $tel
 Электронный адрес отправителя: $email
-";
+Текст сообщения:
+$message";
 
 
 if (empty($bezspama)) /* Оценка поля bezspama - должно быть пустым*/

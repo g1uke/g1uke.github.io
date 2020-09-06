@@ -4,6 +4,22 @@
   });
 })(jQuery);
 
+/* Ajax-запрос */
+
+function SendPost() // Наша функция, которая будет осуществлять ajax-отправку
+{
+       jQuery.ajax({	// Начала конструкции для работы с Ajax через jQuery
+                type: "GET", // Метод, которым получаем данные из формы
+                url: "/feedb.php", // Обработчик формы. 
+                data: jQuery("#form777").serialize(), // Этот метод, берет форму с id=form и достает оттуда данные
+                success: function(html) {	// функция выполняемая при успешном отправлении данных
+					jQuery(".content__feedback").empty();	// очищаем тело документа
+					jQuery(".content__feedback").append("<h2><center>Ваше сообщение успешно отправлено.</center></h2>"); // вставляем сообщение об успехе
+                }
+        });
+}
+
+
 
 jQuery(($) => {
     $(window).scroll(function(){
@@ -35,7 +51,7 @@ jQuery(($) => {
                           _config = {
                             isAutoplay: false, // автоматическая смена слайдов
                             directionAutoplay: 'next', // направление смены слайдов
-                            delayAutoplay: 5000, // интервал между автоматической сменой слайдов
+                            delayAutoplay: 20000, // интервал между автоматической сменой слайдов
                             isPauseOnHover: true // устанавливать ли паузу при поднесении курсора к слайдеру
                           };
                 
@@ -255,12 +271,5 @@ $('.slide a').on('click', function(e) {
   return false;
 });
 
-$('.slider777').slick({
-  slidesToShow: 3,
-  arrows: true,
-  dots: true,
-  customPaging: function() {
-    return ''
-  }
-});
+
 

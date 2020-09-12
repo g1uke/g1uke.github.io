@@ -9,7 +9,7 @@
 <style>.gm-control-active>img{box-sizing:content-box;display:none;left:50%;pointer-events:none;position:absolute;top:50%;transform:translate(-50%,-50%)}.gm-control-active>img:nth-child(1){display:block}.gm-control-active:hover>img:nth-child(1),.gm-control-active:active>img:nth-child(1){display:none}.gm-control-active:hover>img:nth-child(2),.gm-control-active:active>img:nth-child(3){display:block}
 </style>
 
-<link type="text/css" rel="stylesheet" href="./Boots4 v3.1 _ Portfolio Template_files/css">
+<link type="text/css" rel="stylesheet" href="./assets/css">
 
 <style>.gm-ui-hover-effect{opacity:.6}.gm-ui-hover-effect:hover{opacity:1}
 </style>
@@ -47,28 +47,28 @@
     <!-- ===============================================-->
     <!--    Stylesheets-->
     <!-- ===============================================-->
-    <link href="./Boots4 v3.1 _ Portfolio Template_files/prism.css" rel="stylesheet">
-    <link href="./Boots4 v3.1 _ Portfolio Template_files/loaders.min.css" rel="stylesheet">
-    <link href="./Boots4 v3.1 _ Portfolio Template_files/css(1)" rel="stylesheet">
-    <link href="./Boots4 v3.1 _ Portfolio Template_files/css(2)" rel="stylesheet">
-    <link href="./Boots4 v3.1 _ Portfolio Template_files/remodal.css" rel="stylesheet">
-    <link href="./Boots4 v3.1 _ Portfolio Template_files/remodal-default-theme.css" rel="stylesheet">
-    <link href="./Boots4 v3.1 _ Portfolio Template_files/owl.carousel.css" rel="stylesheet">
-    <link href="./Boots4 v3.1 _ Portfolio Template_files/lightbox.css" rel="stylesheet">
-    <link href="./Boots4 v3.1 _ Portfolio Template_files/theme.css" rel="stylesheet">
-  <script type="text/javascript" charset="UTF-8" src="./Boots4 v3.1 _ Portfolio Template_files/common.js.Без названия"></script><script type="text/javascript" charset="UTF-8" src="./Boots4 v3.1 _ Portfolio Template_files/util.js.Без названия"></script><script type="text/javascript" charset="UTF-8" src="./Boots4 v3.1 _ Portfolio Template_files/map.js.Без названия"></script><script type="text/javascript" charset="UTF-8" src="./Boots4 v3.1 _ Portfolio Template_files/marker.js.Без названия"></script><script type="text/javascript" charset="UTF-8" src="./Boots4 v3.1 _ Portfolio Template_files/stats.js.Без названия"></script><script type="text/javascript" charset="UTF-8" src="./Boots4 v3.1 _ Portfolio Template_files/onion.js.Без названия"></script><script type="text/javascript" charset="UTF-8" src="./Boots4 v3.1 _ Portfolio Template_files/infowindow.js.Без названия"></script><script type="text/javascript" charset="UTF-8" src="./Boots4 v3.1 _ Portfolio Template_files/controls.js.Без названия"></script></head>
+    <link href="./assets/prism.css" rel="stylesheet">
+ 
+
+    <link href="./css/remodal.css" rel="stylesheet">
+    <link href="./css/remodal-default-theme.css" rel="stylesheet">
+    <link href="./css/owl.carousel.css" rel="stylesheet">
+    <link href="./css/lightbox.css" rel="stylesheet">
+    <link href="./css/theme.css" rel="stylesheet">
+    <script type="text/javascript" charset="UTF-8" src="./js/common.js"></script>
+    <script type="text/javascript" charset="UTF-8" src="./js/util.js"></script>
+    <script type="text/javascript" charset="UTF-8" src="./js/map.js"></script>
+    <script type="text/javascript" charset="UTF-8" src="./js/marker.js"></script>
+    <script type="text/javascript" charset="UTF-8" src="./js/stats.js"></script>
+    <script type="text/javascript" charset="UTF-8" src="./js/onion.js"></script>
+    <script type="text/javascript" charset="UTF-8" src="./js/infowindow.js"></script>
+    <script type="text/javascript" charset="UTF-8" src="./js/controls.js"></script>
+</head>
 
   <body>
-    <!-- ===============================================-->
-    <!--    Main Content-->
-    <!-- ===============================================-->
     <main>
 
-      <!-- ============================================-->
-      <!-- Preloader ==================================-->
-      
-      <!-- ============================================-->
-      <!-- End of Preloader ===========================-->
+
 
       <!-- ============================================-->
       <!-- <section> begin ============================-->
@@ -78,7 +78,7 @@
             <div class="row align-items-center minh-50vh justify-content-center py-5 minh-lg-100vh">
               <div class="col-8 col-sm-6 text-center">
                 <a href="https://prium.github.io/Boots4/index.html">
-                  <img class="mb-5 img-fluid" src="./img/vmv-logo.png" alt="">
+                  <img class="mb-5 img-fluid" src="./img/svg/vmv-logo.svg" alt="">
                 </a>
 				
 				<link href="https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap" rel="stylesheet">
@@ -104,13 +104,108 @@
 				
 				
 				
-				</style>
-                <p class="vmvname3">ВЕДЕРНИК МАКСИМ ВИКТОРОВИЧ</p>
+        </style>
+        
+<style>
+
+.container {
+  font-family: 'Exo 2', sans-serif;
+  justify-content: center;
+  align-items: center;
+  height: 100px;
+}
+.container p {
+  font-size: 1rem;
+  padding: 0.5rem;
+  font-weight: bold;
+  line-height: 1;
+  text-align: center;
+  overflow: hidden;
+}
+.container p span.typed-text {
+  font-weight: normal;
+  color: #000;
+}
+.container p span.cursor {
+  display: inline-block;
+  background-color: #5d1ba0;
+  margin-left: 0.1rem;
+  width: 10px;
+  animation: blink 1s infinite;
+}
+.container p span.cursor.typing {
+  animation: none;
+}
+@keyframes blink {
+  0%  { background-color: #5d1ba0; }
+  49% { background-color: #5d1ba0; }
+  50% { background-color: transparent; }
+  99% { background-color: transparent; }
+  100%  { background-color: #000; }
+}
+</style>
+
+<div class="container">
+  <p><span class="typed-text"></span><span class="cursor">&nbsp;</span></p>
+</div>
+
+<script>
+  const typedTextSpan = document.querySelector(".typed-text");
+const cursorSpan = document.querySelector(".cursor");
+
+const textArray = ["ВЕДЕРНИК МАКСИМ ВИКТОРОВИЧ", "A.K.A. G1UKE", "WEB DESIGN, CSS, HTML, PHP ..."];
+const typingDelay = 80;
+const erasingDelay = 40;
+const newTextDelay = 2000; // Delay between current and next text
+let textArrayIndex = 0;
+let charIndex = 0;
+
+function type() {
+  if (charIndex < textArray[textArrayIndex].length) {
+    if(!cursorSpan.classList.contains("typing")) cursorSpan.classList.add("typing");
+    typedTextSpan.textContent += textArray[textArrayIndex].charAt(charIndex);
+    charIndex++;
+    setTimeout(type, typingDelay);
+  } 
+  else {
+    cursorSpan.classList.remove("typing");
+  	setTimeout(erase, newTextDelay);
+  }
+}
+
+function erase() {
+	if (charIndex > 0) {
+    if(!cursorSpan.classList.contains("typing")) cursorSpan.classList.add("typing");
+    typedTextSpan.textContent = textArray[textArrayIndex].substring(0, charIndex-1);
+    charIndex--;
+    setTimeout(erase, erasingDelay);
+  } 
+  else {
+    cursorSpan.classList.remove("typing");
+    textArrayIndex++;
+    if(textArrayIndex>=textArray.length) textArrayIndex=0;
+    setTimeout(type, typingDelay + 1100);
+  }
+}
+
+document.addEventListener("DOMContentLoaded", function() { // On DOM Load initiate the effect
+  if(textArray.length) setTimeout(type, newTextDelay + 250);
+});
+</script>
+
+
+
+
+       
+
+
+
+              <!--  <p class="vmvname3">ВЕДЕРНИК МАКСИМ ВИКТОРОВИЧ</p>
 				<span class="vmvname2">A.K.A. G1UKE</span>
 				
-				<p class="vmvname">WEB DESIGN, CSS, HTML, PHP ...</p>
-				
-				<script async src="https://comments.app/js/widget.js?3" data-comments-app-website="WvouaWlt" data-limit="5"></script>
+        <p class="vmvname">WEB DESIGN, CSS, HTML, PHP ...</p>-->
+        
+
               </div>
             </div>
           </div>
@@ -122,7 +217,7 @@
                 <div class="bg-holder" style="background-image:url(https://prium.github.io/Boots4/assets/img/navigation/portfolio.jpg);"></div>
                 <!--/.bg-holder-->
                 <div class="sidebar-item">
-                  <img class="mb-2 mb-lg-3 nav-icon" src="./Boots4 v3.1 _ Portfolio Template_files/heart.svg" alt="">
+                  <img class="mb-2 mb-lg-3 nav-icon" src="./assets/heart.svg" alt="">
                   <h2 class="font-weight-light text-white fs-1 fs-xl-3">Работы</h2>
                 </div>
               </div>
@@ -130,7 +225,7 @@
                 <div class="bg-holder" style="background-image:url(https://prium.github.io/Boots4/assets/img/navigation/contact.jpg);"></div>
                 <!--/.bg-holder-->
                 <div class="sidebar-item">
-                  <img class="mb-2 mb-lg-3 nav-icon" src="./Boots4 v3.1 _ Portfolio Template_files/placeholder.svg" alt="">
+                  <img class="mb-2 mb-lg-3 nav-icon" src="./assets/placeholder.svg" alt="">
                   <h2 class="font-weight-light text-white fs-1 fs-xl-3">Контакты</h2>
                 </div>
               </div>
@@ -178,18 +273,18 @@
                   <div class="col-lg-10">
                     <div class="card-deck">
                       <div class="card border-2x border-warning rounded py-5 px-3 text-center">
-                        <img class="position-absolute r-0 t-0" src="./Boots4 v3.1 _ Portfolio Template_files/1.png" alt="" style="width: 30%; border-top-right-radius: 1px;">
-                        <img class="mx-auto" src="./Boots4 v3.1 _ Portfolio Template_files/lightbulb_idea.svg" width="70" alt=""><span class="d-block fs-3 mt-2 text-dark" data-countup="64973">64973</span>
+                        <img class="position-absolute r-0 t-0" src="./assets/1.png" alt="" style="width: 30%; border-top-right-radius: 1px;">
+                        <img class="mx-auto" src="./assets/lightbulb_idea.svg" width="70" alt=""><span class="d-block fs-3 mt-2 text-dark" data-countup="64973">64973</span>
                         <h5>Lines Of Code</h5>
                       </div>
                       <div class="card border-2x border-danger rounded py-5 px-3 text-center">
-                        <img class="position-absolute b-0 r-0" src="./Boots4 v3.1 _ Portfolio Template_files/2.png" alt="" style="width: 70%; border-bottom-right-radius: 1px;">
-                        <img class="mx-auto" src="./Boots4 v3.1 _ Portfolio Template_files/coffe.svg" width="70" alt=""><span class="d-block fs-3 mt-2 text-dark" data-countup="10218">10218</span>
+                        <img class="position-absolute b-0 r-0" src="./assets/2.png" alt="" style="width: 70%; border-bottom-right-radius: 1px;">
+                        <img class="mx-auto" src="./assets/coffe.svg" width="70" alt=""><span class="d-block fs-3 mt-2 text-dark" data-countup="10218">10218</span>
                         <h5>Cups of Coffee</h5>
                       </div>
                       <div class="card border-2x border-primary rounded py-5 px-3 text-center">
-                        <img class="position-absolute t-0 l-0" src="./Boots4 v3.1 _ Portfolio Template_files/3.png" alt="" style="width: 70%;">
-                        <img class="mx-auto" src="./Boots4 v3.1 _ Portfolio Template_files/cloud.svg" width="70" alt=""><span class="d-block fs-3 mt-2 text-dark" data-countup="7499">7499</span>
+                        <img class="position-absolute t-0 l-0" src="./assets/3.png" alt="" style="width: 70%;">
+                        <img class="mx-auto" src="./assets/cloud.svg" width="70" alt=""><span class="d-block fs-3 mt-2 text-dark" data-countup="7499">7499</span>
                         <h5>Download</h5>
                       </div>
                     </div>
@@ -215,42 +310,42 @@
                     </div>
                     <div class="row">
                       <div class="col-6 col-sm-4 col-md-3 col-lg-4 col-xl-3 mb-5">
-                        <img class="img-fluid rounded-circle" src="./Boots4 v3.1 _ Portfolio Template_files/1.jpg" width="140" alt="">
+                        <img class="img-fluid rounded-circle" src="./assets/1.jpg" width="140" alt="">
                         <h5 class="mt-3 mb-1">Alex Butler</h5>
                         <h5 class="text-500 mb-1">Fraud Manager</h5>
                       </div>
                       <div class="col-6 col-sm-4 col-md-3 col-lg-4 col-xl-3 mb-5">
-                        <img class="img-fluid rounded-circle" src="./Boots4 v3.1 _ Portfolio Template_files/2.jpg" width="140" alt="">
+                        <img class="img-fluid rounded-circle" src="./assets/2.jpg" width="140" alt="">
                         <h5 class="mt-3 mb-1">Andreas Heim</h5>
                         <h5 class="text-500 mb-1">Software Engineer</h5>
                       </div>
                       <div class="col-6 col-sm-4 col-md-3 col-lg-4 col-xl-3 mb-5">
-                        <img class="img-fluid rounded-circle" src="./Boots4 v3.1 _ Portfolio Template_files/3.jpg" width="140" alt="">
+                        <img class="img-fluid rounded-circle" src="./assets/3.jpg" width="140" alt="">
                         <h5 class="mt-3 mb-1">Amanda Alleson</h5>
                         <h5 class="text-500 mb-1">UX Designer</h5>
                       </div>
                       <div class="col-6 col-sm-4 col-md-3 col-lg-4 col-xl-3 mb-5">
-                        <img class="img-fluid rounded-circle" src="./Boots4 v3.1 _ Portfolio Template_files/4.jpg" width="140" alt="">
+                        <img class="img-fluid rounded-circle" src="./assets/4.jpg" width="140" alt="">
                         <h5 class="mt-3 mb-1">Brandon Renfrow</h5>
                         <h5 class="text-500 mb-1">Developer</h5>
                       </div>
                       <div class="col-6 col-sm-4 col-md-3 col-lg-4 col-xl-3 mb-5">
-                        <img class="img-fluid rounded-circle" src="./Boots4 v3.1 _ Portfolio Template_files/5.jpg" width="140" alt="">
+                        <img class="img-fluid rounded-circle" src="./assets/5.jpg" width="140" alt="">
                         <h5 class="mt-3 mb-1">Brian Childs</h5>
                         <h5 class="text-500 mb-1">Training Manager</h5>
                       </div>
                       <div class="col-6 col-sm-4 col-md-3 col-lg-4 col-xl-3 mb-5">
-                        <img class="img-fluid rounded-circle" src="./Boots4 v3.1 _ Portfolio Template_files/6.jpg" width="140" alt="">
+                        <img class="img-fluid rounded-circle" src="./assets/6.jpg" width="140" alt="">
                         <h5 class="mt-3 mb-1">Britney Muller</h5>
                         <h5 class="text-500 mb-1">SEO Scientist</h5>
                       </div>
                       <div class="col-6 col-sm-4 col-md-3 col-lg-4 col-xl-3 mb-5">
-                        <img class="img-fluid rounded-circle" src="./Boots4 v3.1 _ Portfolio Template_files/7.jpg" width="140" alt="">
+                        <img class="img-fluid rounded-circle" src="./assets/7.jpg" width="140" alt="">
                         <h5 class="mt-3 mb-1">Casey Coates</h5>
                         <h5 class="text-500 mb-1">Software Engineer</h5>
                       </div>
                       <div class="col-6 col-sm-4 col-md-3 col-lg-4 col-xl-3 mb-5">
-                        <img class="img-fluid rounded-circle" src="./Boots4 v3.1 _ Portfolio Template_files/8.jpg" width="140" alt="">
+                        <img class="img-fluid rounded-circle" src="./assets/8.jpg" width="140" alt="">
                         <h5 class="mt-3 mb-1">Dana</h5>
                         <h5 class="text-500 mb-1">Bug Hunter</h5>
                       </div>
@@ -290,7 +385,7 @@
             </footer>
           </div>
           <div class="col-lg-3 col-12 t-0 order-0 order-lg-1 position-absolute position-lg-relative">
-            <div class="h-lg-100vh sticky-top py-4 sticky-area"><span class="btn-close"><img class="d-none d-lg-block times" src="./Boots4 v3.1 _ Portfolio Template_files/times.svg" width="25" alt=""><img class="d-lg-none" src="./Boots4 v3.1 _ Portfolio Template_files/times-black.svg" width="18" alt=""></span>
+            <div class="h-lg-100vh sticky-top py-4 sticky-area"><span class="btn-close"><img class="d-none d-lg-block times" src="./assets/times.svg" width="25" alt=""><img class="d-lg-none" src="./assets/times-black.svg" width="18" alt=""></span>
               <div class="bg-holder" style="background-image:url(https://prium.github.io/Boots4/assets/img/sidebars/about.jpg);"></div>
               <!--/.bg-holder-->
               <h1 class="page-title">About Us</h1>
@@ -314,17 +409,17 @@
                     </div>
                     <div class="row">
                       <div class="col-sm-6 col-md-4 col-lg-6 col-xl-4 mb-4 mb-xl-0">
-                        <img class="mb-3" src="./Boots4 v3.1 _ Portfolio Template_files/cloud.svg" alt="" width="100">
+                        <img class="mb-3" src="./assets/cloud.svg" alt="" width="100">
                         <h5 class="text-uppercase">Application</h5>
                         <p class="pr-xxl-5">Having the shortest possible delay between idea and launch is crucial in business.</p>
                       </div>
                       <div class="col-sm-6 col-md-4 col-lg-6 col-xl-4 mb-4 mb-xl-0">
-                        <img class="mb-3" src="./Boots4 v3.1 _ Portfolio Template_files/coffe.svg" alt="" width="100">
+                        <img class="mb-3" src="./assets/coffe.svg" alt="" width="100">
                         <h5 class="text-uppercase">Development</h5>
                         <p class="pr-xxl-5">Our award-winning team follow industry best practices to develop software.</p>
                       </div>
                       <div class="col-sm-6 col-md-4 col-lg-6 col-xl-4 mb-4 mb-xl-0">
-                        <img class="mb-3" src="./Boots4 v3.1 _ Portfolio Template_files/brush.svg" alt="" width="100">
+                        <img class="mb-3" src="./assets/brush.svg" alt="" width="100">
                         <h5 class="text-uppercase">Design</h5>
                         <p class="pr-xxl-5">Our unique tools design grahphics &amp; HTML5 templates 4X faster than our rivals.</p>
                       </div>
@@ -415,28 +510,28 @@
                     </div>
                     <div class="row align-items-center">
                       <div class="col-4 col-sm-3 col-lg-3 mb-4">
-                        <img class="img-fluid" src="./Boots4 v3.1 _ Portfolio Template_files/1(1).png" alt="" style="width: 7.5rem;">
+                        <img class="img-fluid" src="./assets/1(1).png" alt="" style="width: 7.5rem;">
                       </div>
                       <div class="col-4 col-sm-3 col-lg-3 mb-4">
-                        <img class="img-fluid" src="./Boots4 v3.1 _ Portfolio Template_files/2(1).png" alt="" style="width: 7.5rem;">
+                        <img class="img-fluid" src="./assets/2(1).png" alt="" style="width: 7.5rem;">
                       </div>
                       <div class="col-4 col-sm-3 col-lg-3 mb-4">
-                        <img class="img-fluid" src="./Boots4 v3.1 _ Portfolio Template_files/3(1).png" alt="" style="width: 7.5rem;">
+                        <img class="img-fluid" src="./assets/3(1).png" alt="" style="width: 7.5rem;">
                       </div>
                       <div class="col-4 col-sm-3 col-lg-3 mb-4">
-                        <img class="img-fluid" src="./Boots4 v3.1 _ Portfolio Template_files/4.png" alt="" style="width: 7.5rem;">
+                        <img class="img-fluid" src="./assets/4.png" alt="" style="width: 7.5rem;">
                       </div>
                       <div class="col-4 col-sm-3 col-lg-3 mb-4">
-                        <img class="img-fluid" src="./Boots4 v3.1 _ Portfolio Template_files/5.png" alt="" style="width: 5rem;">
+                        <img class="img-fluid" src="./assets/5.png" alt="" style="width: 5rem;">
                       </div>
                       <div class="col-4 col-sm-3 col-lg-3 mb-4">
-                        <img class="img-fluid" src="./Boots4 v3.1 _ Portfolio Template_files/6.png" alt="" style="width: 5rem;">
+                        <img class="img-fluid" src="./assets/6.png" alt="" style="width: 5rem;">
                       </div>
                       <div class="col-4 col-sm-3 col-lg-3 mb-4">
-                        <img class="img-fluid" src="./Boots4 v3.1 _ Portfolio Template_files/7.png" alt="" style="width: 5rem;">
+                        <img class="img-fluid" src="./assets/7.png" alt="" style="width: 5rem;">
                       </div>
                       <div class="col-4 col-sm-3 col-lg-3 mb-4">
-                        <img class="img-fluid" src="./Boots4 v3.1 _ Portfolio Template_files/8.png" alt="" style="width: 4rem;">
+                        <img class="img-fluid" src="./assets/8.png" alt="" style="width: 4rem;">
                       </div>
                     </div>
                   </div>
@@ -476,7 +571,7 @@
             </footer>
           </div>
           <div class="col-lg-3 col-12 t-0 order-0 order-lg-1 position-absolute position-lg-relative">
-            <div class="h-lg-100vh sticky-top py-4 sticky-area"><span class="btn-close"><img class="d-none d-lg-block times" src="./Boots4 v3.1 _ Portfolio Template_files/times.svg" width="25" alt=""><img class="d-lg-none" src="./Boots4 v3.1 _ Portfolio Template_files/times-black.svg" width="18" alt=""></span>
+            <div class="h-lg-100vh sticky-top py-4 sticky-area"><span class="btn-close"><img class="d-none d-lg-block times" src="./assets/times.svg" width="25" alt=""><img class="d-lg-none" src="./assets/times-black.svg" width="18" alt=""></span>
               <div class="bg-holder" style="background-image:url(https://prium.github.io/Boots4/assets/img/sidebars/service.jpg);"></div>
               <!--/.bg-holder-->
               <h1 class="page-title">Our Service</h1>
@@ -508,22 +603,22 @@
                       </div>
                       <div class="row no-gutters sortable-container sortable-container-gutter-fix" style="position: relative; height: 0px;">
                         <a class="col-6 col-md-4 sortable-item p-2 interior" href="https://prium.github.io/Boots4/assets/img/projects/project-7-f.jpg" data-lightbox="image" data-title="my caption" style="position: absolute; left: 0px; top: 0px;">
-                          <img class="w-100 rounded" src="./Boots4 v3.1 _ Portfolio Template_files/project-7.jpg" alt="">
+                          <img class="w-100 rounded" src="./assets/project-7.jpg" alt="">
                         </a>
                         <a class="col-6 col-md-4 sortable-item p-2 studio" href="https://prium.github.io/Boots4/assets/img/projects/project-11-f.jpg" data-lightbox="image" data-title="my caption" style="position: absolute; left: 308.234px; top: 0px; transition-property: opacity, transform; transition-duration: 0.4s; transition-delay: 0ms; transform: translate3d(-308.234px, 0px, 0px);">
-                          <img class="w-100 rounded" src="./Boots4 v3.1 _ Portfolio Template_files/project-11.jpg" alt="">
+                          <img class="w-100 rounded" src="./assets/project-11.jpg" alt="">
                         </a>
                         <a class="col-6 col-md-4 sortable-item p-2 photography" href="https://prium.github.io/Boots4/assets/img/projects/project-8-f.jpg" data-lightbox="image" data-title="my caption" style="position: absolute; left: 616.468px; top: 0px; transition-property: opacity, transform; transition-duration: 0.4s; transition-delay: 0ms; transform: translate3d(-616.468px, 0px, 0px);">
-                          <img class="w-100 rounded" src="./Boots4 v3.1 _ Portfolio Template_files/project-8.jpg" alt="">
+                          <img class="w-100 rounded" src="./assets/project-8.jpg" alt="">
                         </a>
                         <a class="col-6 col-md-4 sortable-item p-2 studio" href="https://prium.github.io/Boots4/assets/img/projects/project-9-f.jpg" data-lightbox="image" data-title="my caption" style="position: absolute; left: 308.234px; top: 224.031px; transition-property: opacity, transform; transition-duration: 0.4s; transition-delay: 0ms; transform: translate3d(-308.234px, -224.031px, 0px);">
-                          <img class="w-100 rounded" src="./Boots4 v3.1 _ Portfolio Template_files/project-9.jpg" alt="">
+                          <img class="w-100 rounded" src="./assets/project-9.jpg" alt="">
                         </a>
                         <a class="col-6 col-md-4 sortable-item p-2 photography" href="https://prium.github.io/Boots4/assets/img/projects/project-12-f.jpg" data-lightbox="image" data-title="my caption" style="position: absolute; left: 0px; top: 414.719px; transition-property: opacity, transform; transition-duration: 0.4s; transition-delay: 0ms; transform: translate3d(0px, -414.719px, 0px);">
-                          <img class="w-100 rounded" src="./Boots4 v3.1 _ Portfolio Template_files/project-12.jpg" alt="">
+                          <img class="w-100 rounded" src="./assets/project-12.jpg" alt="">
                         </a>
                         <div class="col-6 col-md-4 sortable-item p-2 illustration" style="position: absolute; left: 616.468px; top: 414.719px; transition-property: opacity, transform; transition-duration: 0.4s; transition-delay: 0ms; transform: translate3d(-616.468px, -414.719px, 0px);">
-                          <img class="rounded w-100" src="./Boots4 v3.1 _ Portfolio Template_files/project-13.jpg" alt="">
+                          <img class="rounded w-100" src="./assets/project-13.jpg" alt="">
                           <a class="video-modal position-absolute r-0 b-0 pr-4 pb-3" href="https://www.youtube.com/watch?v=QD7pOiZBgy0" data-start="01" data-end="75">
                             <svg width="45" height="45" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 274.19 274.19">
                               <defs>
@@ -548,11 +643,11 @@
                             <div class="embed-responsive-item owl-carousel owl-theme owl-dots-inner owl-theme-white owl-loaded owl-drag owl-hidden" data-options="{&quot;items&quot;:1,&quot;autoplay&quot;:true,&quot;loop&quot;:true,&quot;animateOut&quot;:&quot;fadeOut&quot;}">
                               
                               
-                            <div class="owl-stage-outer"><div class="owl-stage" style="transform: translate3d(-600px, 0px, 0px); transition: all 0s ease 0s; width: 3603px;"><div class="owl-item cloned" style="width: 600.484px;"><img class="rounded fit-cover" src="./Boots4 v3.1 _ Portfolio Template_files/project-14.jpg" alt=""></div><div class="owl-item cloned" style="width: 600.484px;"><img class="rounded fit-cover" src="./Boots4 v3.1 _ Portfolio Template_files/project-15.jpg" alt=""></div><div class="owl-item active" style="width: 600.484px;"><img class="rounded fit-cover" src="./Boots4 v3.1 _ Portfolio Template_files/project-14.jpg" alt=""></div><div class="owl-item" style="width: 600.484px;"><img class="rounded fit-cover" src="./Boots4 v3.1 _ Portfolio Template_files/project-15.jpg" alt=""></div><div class="owl-item cloned" style="width: 600.484px;"><img class="rounded fit-cover" src="./Boots4 v3.1 _ Portfolio Template_files/project-14.jpg" alt=""></div><div class="owl-item cloned" style="width: 600.484px;"><img class="rounded fit-cover" src="./Boots4 v3.1 _ Portfolio Template_files/project-15.jpg" alt=""></div></div></div><div class="owl-nav disabled"><button type="button" role="presentation" class="owl-prev"><svg class="svg-inline--fa fa-angle-left fa-w-8" aria-hidden="true" data-prefix="fas" data-icon="angle-left" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 512" data-fa-i2svg=""><path fill="currentColor" d="M31.7 239l136-136c9.4-9.4 24.6-9.4 33.9 0l22.6 22.6c9.4 9.4 9.4 24.6 0 33.9L127.9 256l96.4 96.4c9.4 9.4 9.4 24.6 0 33.9L201.7 409c-9.4 9.4-24.6 9.4-33.9 0l-136-136c-9.5-9.4-9.5-24.6-.1-34z"></path></svg><!-- <span class="fas fa-angle-left"></span> --></button><button type="button" role="presentation" class="owl-next"><svg class="svg-inline--fa fa-angle-right fa-w-8" aria-hidden="true" data-prefix="fas" data-icon="angle-right" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 512" data-fa-i2svg=""><path fill="currentColor" d="M224.3 273l-136 136c-9.4 9.4-24.6 9.4-33.9 0l-22.6-22.6c-9.4-9.4-9.4-24.6 0-33.9l96.4-96.4-96.4-96.4c-9.4-9.4-9.4-24.6 0-33.9L54.3 103c9.4-9.4 24.6-9.4 33.9 0l136 136c9.5 9.4 9.5 24.6.1 34z"></path></svg><!-- <span class="fas fa-angle-right"></span> --></button></div><div class="owl-dots"><button role="button" class="owl-dot"><span></span></button><button role="button" class="owl-dot active"><span></span></button></div></div>
+                            <div class="owl-stage-outer"><div class="owl-stage" style="transform: translate3d(-600px, 0px, 0px); transition: all 0s ease 0s; width: 3603px;"><div class="owl-item cloned" style="width: 600.484px;"><img class="rounded fit-cover" src="./assets/project-14.jpg" alt=""></div><div class="owl-item cloned" style="width: 600.484px;"><img class="rounded fit-cover" src="./assets/project-15.jpg" alt=""></div><div class="owl-item active" style="width: 600.484px;"><img class="rounded fit-cover" src="./assets/project-14.jpg" alt=""></div><div class="owl-item" style="width: 600.484px;"><img class="rounded fit-cover" src="./assets/project-15.jpg" alt=""></div><div class="owl-item cloned" style="width: 600.484px;"><img class="rounded fit-cover" src="./assets/project-14.jpg" alt=""></div><div class="owl-item cloned" style="width: 600.484px;"><img class="rounded fit-cover" src="./assets/project-15.jpg" alt=""></div></div></div><div class="owl-nav disabled"><button type="button" role="presentation" class="owl-prev"><svg class="svg-inline--fa fa-angle-left fa-w-8" aria-hidden="true" data-prefix="fas" data-icon="angle-left" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 512" data-fa-i2svg=""><path fill="currentColor" d="M31.7 239l136-136c9.4-9.4 24.6-9.4 33.9 0l22.6 22.6c9.4 9.4 9.4 24.6 0 33.9L127.9 256l96.4 96.4c9.4 9.4 9.4 24.6 0 33.9L201.7 409c-9.4 9.4-24.6 9.4-33.9 0l-136-136c-9.5-9.4-9.5-24.6-.1-34z"></path></svg><!-- <span class="fas fa-angle-left"></span> --></button><button type="button" role="presentation" class="owl-next"><svg class="svg-inline--fa fa-angle-right fa-w-8" aria-hidden="true" data-prefix="fas" data-icon="angle-right" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 512" data-fa-i2svg=""><path fill="currentColor" d="M224.3 273l-136 136c-9.4 9.4-24.6 9.4-33.9 0l-22.6-22.6c-9.4-9.4-9.4-24.6 0-33.9l96.4-96.4-96.4-96.4c-9.4-9.4-9.4-24.6 0-33.9L54.3 103c9.4-9.4 24.6-9.4 33.9 0l136 136c9.5 9.4 9.5 24.6.1 34z"></path></svg><!-- <span class="fas fa-angle-right"></span> --></button></div><div class="owl-dots"><button role="button" class="owl-dot"><span></span></button><button role="button" class="owl-dot active"><span></span></button></div></div>
                           </div>
                         </div>
                         <a class="col-6 col-md-4 sortable-item p-2 photography" href="https://prium.github.io/Boots4/assets/img/projects/project-10-f.jpg" data-lightbox="image" data-title="my caption" style="position: absolute; left: 616.484px; top: 638.75px; transition-property: opacity, transform; transition-duration: 0.4s; transition-delay: 0ms; transform: translate3d(-616.484px, -638.75px, 0px);">
-                          <img class="w-100 rounded" src="./Boots4 v3.1 _ Portfolio Template_files/project-10.jpg" alt="">
+                          <img class="w-100 rounded" src="./assets/project-10.jpg" alt="">
                         </a>
                       </div>
                     </div>
@@ -591,7 +686,7 @@
             </footer>
           </div>
           <div class="col-lg-3 col-12 t-0 order-0 order-lg-1 position-absolute position-lg-relative">
-            <div class="h-lg-100vh sticky-top py-4 sticky-area"><span class="btn-close"><img class="d-none d-lg-block times" src="./Boots4 v3.1 _ Portfolio Template_files/times.svg" width="25" alt=""><img class="d-lg-none" src="./Boots4 v3.1 _ Portfolio Template_files/times-black.svg" width="18" alt=""></span>
+            <div class="h-lg-100vh sticky-top py-4 sticky-area"><span class="btn-close"><img class="d-none d-lg-block times" src="./assets/times.svg" width="25" alt=""><img class="d-lg-none" src="./assets/times-black.svg" width="18" alt=""></span>
               <div class="bg-holder" style="background-image:url(https://prium.github.io/Boots4/assets/img/sidebars/portfolio.jpg);"></div>
               <!--/.bg-holder-->
               <h1 class="page-title">Portfolio</h1>
@@ -699,11 +794,7 @@
                     </div>
                   </div>
                 </div>
-                <div class="row justify-content-center mt-4">
-                  <div class="col-lg-10">
-                    <div class="rounded googlemap minh-50vh" data-latlng="48.8583701,2.2922873,17" data-scrollwheel="false" data-icon="assets/img/map-marker.png" data-zoom="17" data-theme="Default" style="position: relative; overflow: hidden;"><div style="height: 100%; width: 100%; position: absolute; top: 0px; left: 0px; background-color: rgb(229, 227, 223);"><div class="gm-style" style="position: absolute; z-index: 0; left: 0px; top: 0px; height: 100%; width: 100%; padding: 0px; border-width: 0px; margin: 0px;"><div tabindex="0" style="position: absolute; z-index: 0; left: 0px; top: 0px; height: 100%; width: 100%; padding: 0px; border-width: 0px; margin: 0px; cursor: url(&quot;https://maps.gstatic.com/mapfiles/openhand_8_8.cur&quot;), default; touch-action: none;"><div style="z-index: 1; position: absolute; left: 50%; top: 50%; width: 100%; transform: translate(0px, 0px);"><div style="position: absolute; left: 0px; top: 0px; z-index: 100; width: 100%;"><div style="position: absolute; left: 0px; top: 0px; z-index: 0;"><div style="position: absolute; z-index: 983; transform: matrix(1, 0, 0, 1, -153, -131);"><div style="position: absolute; left: 0px; top: 0px; width: 256px; height: 256px;"><div style="width: 256px; height: 256px;"></div></div><div style="position: absolute; left: -256px; top: 0px; width: 256px; height: 256px;"><div style="width: 256px; height: 256px;"></div></div><div style="position: absolute; left: -256px; top: -256px; width: 256px; height: 256px;"><div style="width: 256px; height: 256px;"></div></div><div style="position: absolute; left: 0px; top: -256px; width: 256px; height: 256px;"><div style="width: 256px; height: 256px;"></div></div><div style="position: absolute; left: 256px; top: -256px; width: 256px; height: 256px;"><div style="width: 256px; height: 256px;"></div></div><div style="position: absolute; left: 256px; top: 0px; width: 256px; height: 256px;"><div style="width: 256px; height: 256px;"></div></div><div style="position: absolute; left: 256px; top: 256px; width: 256px; height: 256px;"><div style="width: 256px; height: 256px;"></div></div><div style="position: absolute; left: 0px; top: 256px; width: 256px; height: 256px;"><div style="width: 256px; height: 256px;"></div></div><div style="position: absolute; left: -256px; top: 256px; width: 256px; height: 256px;"><div style="width: 256px; height: 256px;"></div></div><div style="position: absolute; left: -512px; top: 256px; width: 256px; height: 256px;"><div style="width: 256px; height: 256px;"></div></div><div style="position: absolute; left: -512px; top: 0px; width: 256px; height: 256px;"><div style="width: 256px; height: 256px;"></div></div><div style="position: absolute; left: -512px; top: -256px; width: 256px; height: 256px;"><div style="width: 256px; height: 256px;"></div></div><div style="position: absolute; left: 512px; top: -256px; width: 256px; height: 256px;"><div style="width: 256px; height: 256px;"></div></div><div style="position: absolute; left: 512px; top: 0px; width: 256px; height: 256px;"><div style="width: 256px; height: 256px;"></div></div><div style="position: absolute; left: 512px; top: 256px; width: 256px; height: 256px;"><div style="width: 256px; height: 256px;"></div></div></div></div></div><div style="position: absolute; left: 0px; top: 0px; z-index: 101; width: 100%;"></div><div style="position: absolute; left: 0px; top: 0px; z-index: 102; width: 100%;"></div><div style="position: absolute; left: 0px; top: 0px; z-index: 103; width: 100%;"><div style="position: absolute; left: 0px; top: 0px; z-index: -1;"><div style="position: absolute; z-index: 983; transform: matrix(1, 0, 0, 1, -153, -131);"><div style="width: 256px; height: 256px; overflow: hidden; position: absolute; left: 0px; top: 0px;"></div><div style="width: 256px; height: 256px; overflow: hidden; position: absolute; left: -256px; top: 0px;"></div><div style="width: 256px; height: 256px; overflow: hidden; position: absolute; left: -256px; top: -256px;"></div><div style="width: 256px; height: 256px; overflow: hidden; position: absolute; left: 0px; top: -256px;"></div><div style="width: 256px; height: 256px; overflow: hidden; position: absolute; left: 256px; top: -256px;"></div><div style="width: 256px; height: 256px; overflow: hidden; position: absolute; left: 256px; top: 0px;"></div><div style="width: 256px; height: 256px; overflow: hidden; position: absolute; left: 256px; top: 256px;"></div><div style="width: 256px; height: 256px; overflow: hidden; position: absolute; left: 0px; top: 256px;"></div><div style="width: 256px; height: 256px; overflow: hidden; position: absolute; left: -256px; top: 256px;"></div><div style="width: 256px; height: 256px; overflow: hidden; position: absolute; left: -512px; top: 256px;"></div><div style="width: 256px; height: 256px; overflow: hidden; position: absolute; left: -512px; top: 0px;"></div><div style="width: 256px; height: 256px; overflow: hidden; position: absolute; left: -512px; top: -256px;"></div><div style="width: 256px; height: 256px; overflow: hidden; position: absolute; left: 512px; top: -256px;"></div><div style="width: 256px; height: 256px; overflow: hidden; position: absolute; left: 512px; top: 0px;"></div><div style="width: 256px; height: 256px; overflow: hidden; position: absolute; left: 512px; top: 256px;"></div></div></div><div style="width: 50px; height: 50px; overflow: hidden; position: absolute; left: -25px; top: -50px; z-index: 0;"><img alt="" src="./Boots4 v3.1 _ Portfolio Template_files/map-marker.png" draggable="false" style="position: absolute; left: 0px; top: 0px; user-select: none; width: 50px; height: 50px; border: 0px; padding: 0px; margin: 0px; max-width: none;"></div></div><div style="position: absolute; left: 0px; top: 0px; z-index: 0;"><div style="position: absolute; z-index: 983; transform: matrix(1, 0, 0, 1, -153, -131);"><div style="position: absolute; left: 0px; top: 256px; width: 256px; height: 256px; transition: opacity 200ms linear 0s;"><img draggable="false" alt="" role="presentation" src="./Boots4 v3.1 _ Portfolio Template_files/vt" style="width: 256px; height: 256px; user-select: none; border: 0px; padding: 0px; margin: 0px; max-width: none;"></div><div style="position: absolute; left: 256px; top: 256px; width: 256px; height: 256px; transition: opacity 200ms linear 0s;"><img draggable="false" alt="" role="presentation" src="./Boots4 v3.1 _ Portfolio Template_files/vt(1)" style="width: 256px; height: 256px; user-select: none; border: 0px; padding: 0px; margin: 0px; max-width: none;"></div><div style="position: absolute; left: 256px; top: 0px; width: 256px; height: 256px; transition: opacity 200ms linear 0s;"><img draggable="false" alt="" role="presentation" src="./Boots4 v3.1 _ Portfolio Template_files/vt(2)" style="width: 256px; height: 256px; user-select: none; border: 0px; padding: 0px; margin: 0px; max-width: none;"></div><div style="position: absolute; left: 256px; top: -256px; width: 256px; height: 256px; transition: opacity 200ms linear 0s;"><img draggable="false" alt="" role="presentation" src="./Boots4 v3.1 _ Portfolio Template_files/vt(3)" style="width: 256px; height: 256px; user-select: none; border: 0px; padding: 0px; margin: 0px; max-width: none;"></div><div style="position: absolute; left: 0px; top: -256px; width: 256px; height: 256px; transition: opacity 200ms linear 0s;"><img draggable="false" alt="" role="presentation" src="./Boots4 v3.1 _ Portfolio Template_files/vt(4)" style="width: 256px; height: 256px; user-select: none; border: 0px; padding: 0px; margin: 0px; max-width: none;"></div><div style="position: absolute; left: -256px; top: 0px; width: 256px; height: 256px; transition: opacity 200ms linear 0s;"><img draggable="false" alt="" role="presentation" src="./Boots4 v3.1 _ Portfolio Template_files/vt(5)" style="width: 256px; height: 256px; user-select: none; border: 0px; padding: 0px; margin: 0px; max-width: none;"></div><div style="position: absolute; left: 0px; top: 0px; width: 256px; height: 256px; transition: opacity 200ms linear 0s;"><img draggable="false" alt="" role="presentation" src="./Boots4 v3.1 _ Portfolio Template_files/vt(6)" style="width: 256px; height: 256px; user-select: none; border: 0px; padding: 0px; margin: 0px; max-width: none;"></div><div style="position: absolute; left: -256px; top: -256px; width: 256px; height: 256px; transition: opacity 200ms linear 0s;"><img draggable="false" alt="" role="presentation" src="./Boots4 v3.1 _ Portfolio Template_files/vt(7)" style="width: 256px; height: 256px; user-select: none; border: 0px; padding: 0px; margin: 0px; max-width: none;"></div><div style="position: absolute; left: -256px; top: 256px; width: 256px; height: 256px; transition: opacity 200ms linear 0s;"><img draggable="false" alt="" role="presentation" src="./Boots4 v3.1 _ Portfolio Template_files/vt(8)" style="width: 256px; height: 256px; user-select: none; border: 0px; padding: 0px; margin: 0px; max-width: none;"></div><div style="position: absolute; left: -512px; top: 256px; width: 256px; height: 256px; transition: opacity 200ms linear 0s;"><img draggable="false" alt="" role="presentation" src="./Boots4 v3.1 _ Portfolio Template_files/vt(9)" style="width: 256px; height: 256px; user-select: none; border: 0px; padding: 0px; margin: 0px; max-width: none;"></div><div style="position: absolute; left: -512px; top: 0px; width: 256px; height: 256px; transition: opacity 200ms linear 0s;"><img draggable="false" alt="" role="presentation" src="./Boots4 v3.1 _ Portfolio Template_files/vt(10)" style="width: 256px; height: 256px; user-select: none; border: 0px; padding: 0px; margin: 0px; max-width: none;"></div><div style="position: absolute; left: 512px; top: -256px; width: 256px; height: 256px; transition: opacity 200ms linear 0s;"><img draggable="false" alt="" role="presentation" src="./Boots4 v3.1 _ Portfolio Template_files/vt(11)" style="width: 256px; height: 256px; user-select: none; border: 0px; padding: 0px; margin: 0px; max-width: none;"></div><div style="position: absolute; left: -512px; top: -256px; width: 256px; height: 256px; transition: opacity 200ms linear 0s;"><img draggable="false" alt="" role="presentation" src="./Boots4 v3.1 _ Portfolio Template_files/vt(12)" style="width: 256px; height: 256px; user-select: none; border: 0px; padding: 0px; margin: 0px; max-width: none;"></div><div style="position: absolute; left: 512px; top: 256px; width: 256px; height: 256px; transition: opacity 200ms linear 0s;"><img draggable="false" alt="" role="presentation" src="./Boots4 v3.1 _ Portfolio Template_files/vt(13)" style="width: 256px; height: 256px; user-select: none; border: 0px; padding: 0px; margin: 0px; max-width: none;"></div><div style="position: absolute; left: 512px; top: 0px; width: 256px; height: 256px; transition: opacity 200ms linear 0s;"><img draggable="false" alt="" role="presentation" src="./Boots4 v3.1 _ Portfolio Template_files/vt(14)" style="width: 256px; height: 256px; user-select: none; border: 0px; padding: 0px; margin: 0px; max-width: none;"></div></div></div></div><div class="gm-style-pbc" style="z-index: 2; position: absolute; height: 100%; width: 100%; padding: 0px; border-width: 0px; margin: 0px; left: 0px; top: 0px; opacity: 0;"><p class="gm-style-pbt"></p></div><div style="z-index: 3; position: absolute; height: 100%; width: 100%; padding: 0px; border-width: 0px; margin: 0px; left: 0px; top: 0px; touch-action: pan-x pan-y;"><div style="z-index: 4; position: absolute; left: 50%; top: 50%; width: 100%; transform: translate(0px, 0px);"><div style="position: absolute; left: 0px; top: 0px; z-index: 104; width: 100%;"></div><div style="position: absolute; left: 0px; top: 0px; z-index: 105; width: 100%;"></div><div style="position: absolute; left: 0px; top: 0px; z-index: 106; width: 100%;"><div title="" style="width: 50px; height: 50px; overflow: hidden; position: absolute; opacity: 0; cursor: pointer; touch-action: none; left: -25px; top: -50px; z-index: 0;"><img alt="" src="./Boots4 v3.1 _ Portfolio Template_files/map-marker.png" draggable="false" style="position: absolute; left: 0px; top: 0px; user-select: none; width: 50px; height: 50px; border: 0px; padding: 0px; margin: 0px; max-width: none;"></div></div><div style="position: absolute; left: 0px; top: 0px; z-index: 107; width: 100%;"></div></div></div></div><iframe aria-hidden="true" frameborder="0" tabindex="-1" style="z-index: -1; position: absolute; width: 100%; height: 100%; top: 0px; left: 0px; border: none;" src="./Boots4 v3.1 _ Portfolio Template_files/saved_resource.html"></iframe><div style="margin-left: 5px; margin-right: 5px; z-index: 1000000; position: absolute; left: 0px; bottom: 0px;"><a target="_blank" rel="noopener" href="https://maps.google.com/maps?ll=48.85837,2.292287&amp;z=17&amp;t=m&amp;hl=ru-RU&amp;gl=US&amp;mapclient=apiv3" title="Открыть эту область в Google Картах (в новом окне)" style="position: static; overflow: visible; float: none; display: inline;"><div style="width: 66px; height: 26px; cursor: pointer;"><img alt="" src="./Boots4 v3.1 _ Portfolio Template_files/google_white5.png" draggable="false" style="position: absolute; left: 0px; top: 0px; width: 66px; height: 26px; user-select: none; border: 0px; padding: 0px; margin: 0px;"></div></a></div><div style="background-color: white; padding: 15px 21px; border: 1px solid rgb(171, 171, 171); font-family: Roboto, Arial, sans-serif; color: rgb(34, 34, 34); box-sizing: border-box; box-shadow: rgba(0, 0, 0, 0.2) 0px 4px 16px; z-index: 10000002; display: none; width: 300px; height: 180px; position: absolute; left: 305px; top: 155px;"><div style="padding: 0px 0px 10px; font-size: 16px; box-sizing: border-box;">Картографические данные</div><div style="font-size: 13px;">Картографические данные © 2020 Google</div><button draggable="false" title="Закрыть" aria-label="Закрыть" type="button" class="gm-ui-hover-effect" style="background: none; display: block; border: 0px; margin: 0px; padding: 0px; position: absolute; cursor: pointer; user-select: none; top: 0px; right: 0px; width: 37px; height: 37px;"><img src="data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%2224px%22%20height%3D%2224px%22%20viewBox%3D%220%200%2024%2024%22%20fill%3D%22%23000000%22%3E%0A%20%20%20%20%3Cpath%20d%3D%22M19%206.41L17.59%205%2012%2010.59%206.41%205%205%206.41%2010.59%2012%205%2017.59%206.41%2019%2012%2013.41%2017.59%2019%2019%2017.59%2013.41%2012z%22%2F%3E%0A%20%20%20%20%3Cpath%20d%3D%22M0%200h24v24H0z%22%20fill%3D%22none%22%2F%3E%0A%3C%2Fsvg%3E%0A" style="pointer-events: none; display: block; width: 13px; height: 13px; margin: 12px;"></button></div><div class="gmnoprint" style="z-index: 1000001; position: absolute; right: 0px; bottom: 0px; width: 12px;"><div draggable="false" class="gm-style-cc" style="user-select: none; height: 14px; line-height: 14px;"><div style="opacity: 0.7; width: 100%; height: 100%; position: absolute;"><div style="width: 1px;"></div><div style="background-color: rgb(245, 245, 245); width: auto; height: 100%; margin-left: 1px;"></div></div><div style="position: relative; padding-right: 6px; padding-left: 6px; box-sizing: border-box; font-family: Roboto, Arial, sans-serif; font-size: 10px; color: rgb(68, 68, 68); white-space: nowrap; direction: ltr; text-align: right; vertical-align: middle; display: inline-block;"><a style="text-decoration: none; cursor: pointer; display: none;">Картографические данные</a><span>Картографические данные © 2020 Google</span></div></div></div><div class="gmnoscreen" style="position: absolute; right: 0px; bottom: 0px;"><div style="font-family: Roboto, Arial, sans-serif; font-size: 11px; color: rgb(68, 68, 68); direction: ltr; text-align: right; background-color: rgb(245, 245, 245);">Картографические данные © 2020 Google</div></div><div class="gmnoprint gm-style-cc" draggable="false" style="z-index: 1000001; user-select: none; height: 14px; line-height: 14px; position: absolute; right: 0px; bottom: 0px;"><div style="opacity: 0.7; width: 100%; height: 100%; position: absolute;"><div style="width: 1px;"></div><div style="background-color: rgb(245, 245, 245); width: auto; height: 100%; margin-left: 1px;"></div></div><div style="position: relative; padding-right: 6px; padding-left: 6px; box-sizing: border-box; font-family: Roboto, Arial, sans-serif; font-size: 10px; color: rgb(68, 68, 68); white-space: nowrap; direction: ltr; text-align: right; vertical-align: middle; display: inline-block;"><a href="https://www.google.com/intl/ru-RU_US/help/terms_maps.html" target="_blank" rel="noopener" style="text-decoration: none; cursor: pointer; color: rgb(68, 68, 68);">Условия использования</a></div></div><button draggable="false" title="Включить полноэкранный режим" aria-label="Включить полноэкранный режим" type="button" class="gm-control-active gm-fullscreen-control" style="background: none rgb(255, 255, 255); border: 0px; margin: 10px; padding: 0px; position: absolute; cursor: pointer; user-select: none; border-radius: 2px; height: 40px; width: 40px; box-shadow: rgba(0, 0, 0, 0.3) 0px 1px 4px -1px; overflow: hidden; top: 0px; right: 0px;"><img src="data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%2218%22%20height%3D%2218%22%20viewBox%3D%220%20018%2018%22%3E%0A%20%20%3Cpath%20fill%3D%22%23666%22%20d%3D%22M0%2C0v2v4h2V2h4V0H2H0z%20M16%2C0h-4v2h4v4h2V2V0H16z%20M16%2C16h-4v2h4h2v-2v-4h-2V16z%20M2%2C12H0v4v2h2h4v-2H2V12z%22%2F%3E%0A%3C%2Fsvg%3E%0A" style="height: 18px; width: 18px;"><img src="data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%2218%22%20height%3D%2218%22%20viewBox%3D%220%200%2018%2018%22%3E%0A%20%20%3Cpath%20fill%3D%22%23333%22%20d%3D%22M0%2C0v2v4h2V2h4V0H2H0z%20M16%2C0h-4v2h4v4h2V2V0H16z%20M16%2C16h-4v2h4h2v-2v-4h-2V16z%20M2%2C12H0v4v2h2h4v-2H2V12z%22%2F%3E%0A%3C%2Fsvg%3E%0A" style="height: 18px; width: 18px;"><img src="data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%2218%22%20height%3D%2218%22%20viewBox%3D%220%200%2018%2018%22%3E%0A%20%20%3Cpath%20fill%3D%22%23111%22%20d%3D%22M0%2C0v2v4h2V2h4V0H2H0z%20M16%2C0h-4v2h4v4h2V2V0H16z%20M16%2C16h-4v2h4h2v-2v-4h-2V16z%20M2%2C12H0v4v2h2h4v-2H2V12z%22%2F%3E%0A%3C%2Fsvg%3E%0A" style="height: 18px; width: 18px;"></button><div draggable="false" class="gm-style-cc" style="user-select: none; height: 14px; line-height: 14px; position: absolute; right: 0px; bottom: 0px;"><div style="opacity: 0.7; width: 100%; height: 100%; position: absolute;"><div style="width: 1px;"></div><div style="background-color: rgb(245, 245, 245); width: auto; height: 100%; margin-left: 1px;"></div></div><div style="position: relative; padding-right: 6px; padding-left: 6px; box-sizing: border-box; font-family: Roboto, Arial, sans-serif; font-size: 10px; color: rgb(68, 68, 68); white-space: nowrap; direction: ltr; text-align: right; vertical-align: middle; display: inline-block;"><a target="_blank" rel="noopener" title="Сообщить об ошибке на карте или снимке" href="https://www.google.com/maps/@48.8583701,2.2922873,17z/data=!10m1!1e1!12b1?source=apiv3&amp;rapsrc=apiv3" style="font-family: Roboto, Arial, sans-serif; font-size: 10px; color: rgb(68, 68, 68); text-decoration: none; position: relative;">Сообщить об ошибке на карте</a></div></div><div class="gmnoprint gm-bundled-control gm-bundled-control-on-bottom" draggable="false" controlwidth="40" controlheight="153" style="margin: 10px; user-select: none; position: absolute; bottom: 153px; right: 40px;"><div class="gmnoprint" controlwidth="40" controlheight="81" style="position: absolute; left: 0px; top: 72px;"><div draggable="false" style="user-select: none; box-shadow: rgba(0, 0, 0, 0.3) 0px 1px 4px -1px; border-radius: 2px; cursor: pointer; background-color: rgb(255, 255, 255); width: 40px; height: 81px;"><button draggable="false" title="Увеличить" aria-label="Увеличить" type="button" class="gm-control-active" style="background: none; display: block; border: 0px; margin: 0px; padding: 0px; position: relative; cursor: pointer; user-select: none; overflow: hidden; width: 40px; height: 40px; top: 0px; left: 0px;"><img src="data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%2218%22%20height%3D%2218%22%20viewBox%3D%220%200%2018%2018%22%3E%0A%20%20%3Cpolygon%20fill%3D%22%23666%22%20points%3D%2218%2C7%2011%2C7%2011%2C0%207%2C0%207%2C7%200%2C7%200%2C11%207%2C11%207%2C18%2011%2C18%2011%2C11%2018%2C11%22%2F%3E%0A%3C%2Fsvg%3E%0A" style="height: 18px; width: 18px;"><img src="data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%2218%22%20height%3D%2218%22%20viewBox%3D%220%200%2018%2018%22%3E%0A%20%20%3Cpolygon%20fill%3D%22%23333%22%20points%3D%2218%2C7%2011%2C7%2011%2C0%207%2C0%207%2C7%200%2C7%200%2C11%207%2C11%207%2C18%2011%2C18%2011%2C11%2018%2C11%22%2F%3E%0A%3C%2Fsvg%3E%0A" style="height: 18px; width: 18px;"><img src="data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%2218%22%20height%3D%2218%22%20viewBox%3D%220%200%2018%2018%22%3E%0A%20%20%3Cpolygon%20fill%3D%22%23111%22%20points%3D%2218%2C7%2011%2C7%2011%2C0%207%2C0%207%2C7%200%2C7%200%2C11%207%2C11%207%2C18%2011%2C18%2011%2C11%2018%2C11%22%2F%3E%0A%3C%2Fsvg%3E%0A" style="height: 18px; width: 18px;"></button><div style="position: relative; overflow: hidden; width: 30px; height: 1px; margin: 0px 5px; background-color: rgb(230, 230, 230); top: 0px;"></div><button draggable="false" title="Уменьшить" aria-label="Уменьшить" type="button" class="gm-control-active" style="background: none; display: block; border: 0px; margin: 0px; padding: 0px; position: relative; cursor: pointer; user-select: none; overflow: hidden; width: 40px; height: 40px; top: 0px; left: 0px;"><img src="data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%2218%22%20height%3D%2218%22%20viewBox%3D%220%200%2018%2018%22%3E%0A%20%20%3Cpath%20fill%3D%22%23666%22%20d%3D%22M0%2C7h18v4H0V7z%22%2F%3E%0A%3C%2Fsvg%3E%0A" style="height: 18px; width: 18px;"><img src="data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%2218%22%20height%3D%2218%22%20viewBox%3D%220%200%2018%2018%22%3E%0A%20%20%3Cpath%20fill%3D%22%23333%22%20d%3D%22M0%2C7h18v4H0V7z%22%2F%3E%0A%3C%2Fsvg%3E%0A" style="height: 18px; width: 18px;"><img src="data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%2218%22%20height%3D%2218%22%20viewBox%3D%220%200%2018%2018%22%3E%0A%20%20%3Cpath%20fill%3D%22%23111%22%20d%3D%22M0%2C7h18v4H0V7z%22%2F%3E%0A%3C%2Fsvg%3E%0A" style="height: 18px; width: 18px;"></button></div></div><div class="gm-svpc" dir="ltr" title="Перетащите человечка на карту, чтобы перейти в режим просмотра улиц" controlwidth="40" controlheight="40" style="background-color: rgb(255, 255, 255); box-shadow: rgba(0, 0, 0, 0.3) 0px 1px 4px -1px; border-radius: 2px; width: 40px; height: 40px; cursor: url(&quot;https://maps.gstatic.com/mapfiles/openhand_8_8.cur&quot;), default; touch-action: none; position: absolute; left: 0px; top: 0px;"><div style="position: absolute; left: 50%; top: 50%;"></div><div style="position: absolute; left: 50%; top: 50%;"><img src="data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%2223%22%20height%3D%2238%22%20viewBox%3D%220%200%2023%2038%22%3E%0A%3Cpath%20d%3D%22M16.6%2C38.1h-5.5l-0.2-2.9-0.2%2C2.9h-5.5L5%2C25.3l-0.8%2C2a1.53%2C1.53%2C0%2C0%2C1-1.9.9l-1.2-.4a1.58%2C1.58%2C0%2C0%2C1-1-1.9v-0.1c0.3-.9%2C3.1-11.2%2C3.1-11.2a2.66%2C2.66%2C0%2C0%2C1%2C2.3-2l0.6-.5a6.93%2C6.93%2C0%2C0%2C1%2C4.7-12%2C6.8%2C6.8%2C0%2C0%2C1%2C4.9%2C2%2C7%2C7%2C0%2C0%2C1%2C2%2C4.9%2C6.65%2C6.65%2C0%2C0%2C1-2.2%2C5l0.7%2C0.5a2.78%2C2.78%2C0%2C0%2C1%2C2.4%2C2s2.9%2C11.2%2C2.9%2C11.3a1.53%2C1.53%2C0%2C0%2C1-.9%2C1.9l-1.3.4a1.63%2C1.63%2C0%2C0%2C1-1.9-.9l-0.7-1.8-0.1%2C12.7h0Zm-3.6-2h1.7L14.9%2C20.3l1.9-.3%2C2.4%2C6.3%2C0.3-.1c-0.2-.8-0.8-3.2-2.8-10.9a0.63%2C0.63%2C0%2C0%2C0-.6-0.5h-0.6l-1.1-.9h-1.9l-0.3-2a4.83%2C4.83%2C0%2C0%2C0%2C3.5-4.7A4.78%2C4.78%200%200%2C0%2011%202.3H10.8a4.9%2C4.9%2C0%2C0%2C0-1.4%2C9.6l-0.3%2C2h-1.9l-1%2C.9h-0.6a0.74%2C0.74%2C0%2C0%2C0-.6.5c-2%2C7.5-2.7%2C10-3%2C10.9l0.3%2C0.1%2C2.5-6.3%2C1.9%2C0.3%2C0.2%2C15.8h1.6l0.6-8.4a1.52%2C1.52%2C0%2C0%2C1%2C1.5-1.4%2C1.5%2C1.5%2C0%2C0%2C1%2C1.5%2C1.4l0.9%2C8.4h0Zm-10.9-9.6h0Zm17.5-.1h0Z%22%20style%3D%22fill%3A%23333%3Bopacity%3A0.7%3Bisolation%3Aisolate%22%2F%3E%0A%3Cpath%20d%3D%22M5.9%2C13.6l1.1-.9h7.8l1.2%2C0.9%22%20style%3D%22fill%3A%23ce592c%22%2F%3E%0A%3Cellipse%20cx%3D%2210.9%22%20cy%3D%2213.1%22%20rx%3D%222.7%22%20ry%3D%220.3%22%20style%3D%22fill%3A%23ce592c%3Bopacity%3A0.5%3Bisolation%3Aisolate%22%2F%3E%0A%3Cpath%20d%3D%22M20.6%2C26.1l-2.9-11.3a1.71%2C1.71%2C0%2C0%2C0-1.6-1.2H5.7a1.69%2C1.69%2C0%2C0%2C0-1.5%2C1.3l-3.1%2C11.3a0.61%2C0.61%2C0%2C0%2C0%2C.3.7l1.1%2C0.4a0.61%2C0.61%2C0%2C0%2C0%2C.7-0.3l2.7-6.7%2C0.2%2C16.8h3.6l0.6-9.3a0.47%2C0.47%2C0%2C0%2C1%2C.44-0.5h0.06c0.4%2C0%2C.4.2%2C0.5%2C0.5l0.6%2C9.3h3.6L15.7%2C20.3l2.5%2C6.6a0.52%2C0.52%2C0%2C0%2C0%2C.66.31h0l1.2-.4a0.57%2C0.57%2C0%2C0%2C0%2C.5-0.7h0Z%22%20style%3D%22fill%3A%23fdbf2d%22%2F%3E%0A%3Cpath%20d%3D%22M7%2C13.6l3.9%2C6.7%2C3.9-6.7%22%20style%3D%22fill%3A%23cf572e%3Bopacity%3A0.6%3Bisolation%3Aisolate%22%2F%3E%0A%3Ccircle%20cx%3D%2210.9%22%20cy%3D%227%22%20r%3D%225.9%22%20style%3D%22fill%3A%23fdbf2d%22%2F%3E%0A%3C%2Fsvg%3E%0A" aria-label="Управление человечком в режиме просмотра улиц" style="height: 30px; width: 30px; position: absolute; transform: translate(-50%, -50%); pointer-events: none;"><img src="data:image/svg+xml,%3Csvg%20width%3D%2224px%22%20height%3D%2238px%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20xmlns%3Axlink%3D%22http%3A%2F%2Fwww.w3.org%2F1999%2Fxlink%22%20viewBox%3D%220%200%2024%2038%22%3E%0A%3Cpath%20d%3D%22M22%2C26.6l-2.9-11.3a2.78%2C2.78%2C0%2C0%2C0-2.4-2l-0.7-.5a6.82%2C6.82%2C0%2C0%2C0%2C2.2-5%2C6.9%2C6.9%2C0%2C0%2C0-13.8%2C0%2C7%2C7%2C0%2C0%2C0%2C2.2%2C5.1l-0.6.5a2.55%2C2.55%2C0%2C0%2C0-2.3%2C2s-3%2C11.1-3%2C11.2v0.1a1.58%2C1.58%2C0%2C0%2C0%2C1%2C1.9l1.2%2C0.4a1.63%2C1.63%2C0%2C0%2C0%2C1.9-.9l0.8-2%2C0.2%2C12.8h11.3l0.2-12.6%2C0.7%2C1.8a1.54%2C1.54%2C0%2C0%2C0%2C1.5%2C1%2C1.09%2C1.09%2C0%2C0%2C0%2C.5-0.1l1.3-.4a1.85%2C1.85%2C0%2C0%2C0%2C.7-2h0Zm-1.2.9-1.2.4a0.61%2C0.61%2C0%2C0%2C1-.7-0.3l-2.5-6.6-0.2%2C16.8h-9.4L6.6%2C21l-2.7%2C6.7a0.52%2C0.52%2C0%2C0%2C1-.66.31h0l-1.1-.4a0.52%2C0.52%2C0%2C0%2C1-.31-0.66v0l3.1-11.3a1.69%2C1.69%2C0%2C0%2C1%2C1.5-1.3h0.2l1-.9h2.3a5.9%2C5.9%2C0%2C1%2C1%2C3.2%2C0h2.3l1.1%2C0.9h0.2a1.71%2C1.71%2C0%2C0%2C1%2C1.6%2C1.2l2.9%2C11.3a0.84%2C0.84%2C0%2C0%2C1-.4.7h0Z%22%20style%3D%22fill%3A%23333%3Bfill-opacity%3A0.2%22%2F%3E%22%0A%3C%2Fsvg%3E%0A%0A" aria-label="Человечек находится над картой" style="display: none; height: 30px; width: 30px; position: absolute; transform: translate(-50%, -50%); pointer-events: none;"><img src="data:image/svg+xml,%3Csvg%20width%3D%2240px%22%20height%3D%2250px%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20xmlns%3Axlink%3D%22http%3A%2F%2Fwww.w3.org%2F1999%2Fxlink%22%20viewBox%3D%220%200%2040%2050%22%3E%0A%3Cpath%20d%3D%22M34.00%2C-30.40l-2.9-11.3a2.78%2C2.78%2C0%2C0%2C0-2.4-2l-0.7-.5a6.82%2C6.82%2C0%2C0%2C0%2C2.2-5%2C6.9%2C6.9%2C0%2C0%2C0-13.8%2C0%2C7%2C7%2C0%2C0%2C0%2C2.2%2C5.1l-0.6.5a2.55%2C2.55%2C0%2C0%2C0-2.3%2C2s-3%2C11.1-3%2C11.2v0.1a1.58%2C1.58%2C0%2C0%2C0%2C1%2C1.9l1.2%2C0.4a1.63%2C1.63%2C0%2C0%2C0%2C1.9-.9l0.8-2%2C0.2%2C12.8h11.3l0.2-12.6%2C0.7%2C1.8a1.54%2C1.54%2C0%2C0%2C0%2C1.5%2C1%2C1.09%2C1.09%2C0%2C0%2C0%2C.5-0.1l1.3-.4a1.85%2C1.85%2C0%2C0%2C0%2C.7-2h0Zm-1.2.9-1.2.4a0.61%2C0.61%2C0%2C0%2C1-.7-0.3l-2.5-6.6-0.2%2C16.8h-9.4L18.60%2C-36.00l-2.7%2C6.7a0.52%2C0.52%2C0%2C0%2C1-.66.31h0l-1.1-.4a0.52%2C0.52%2C0%2C0%2C1-.31-0.66v0l3.1-11.3a1.69%2C1.69%2C0%2C0%2C1%2C1.5-1.3h0.2l1-.9h2.3a5.9%2C5.9%2C0%2C1%2C1%2C3.2%2C0h2.3l1.1%2C0.9h0.2a1.71%2C1.71%2C0%2C0%2C1%2C1.6%2C1.2l2.9%2C11.3a0.84%2C0.84%2C0%2C0%2C1-.4.7h0Zm1.2%2C59.1-2.9-11.3a2.78%2C2.78%2C0%2C0%2C0-2.4-2l-0.7-.5a6.82%2C6.82%2C0%2C0%2C0%2C2.2-5%2C6.9%2C6.9%2C0%2C0%2C0-13.8%2C0%2C7%2C7%2C0%2C0%2C0%2C2.2%2C5.1l-0.6.5a2.55%2C2.55%2C0%2C0%2C0-2.3%2C2s-3%2C11.1-3%2C11.2v0.1a1.58%2C1.58%2C0%2C0%2C0%2C1%2C1.9l1.2%2C0.4a1.63%2C1.63%2C0%2C0%2C0%2C1.9-.9l0.8-2%2C0.2%2C12.8h11.3l0.2-12.6%2C0.7%2C1.8a1.54%2C1.54%2C0%2C0%2C0%2C1.5%2C1%2C1.09%2C1.09%2C0%2C0%2C0%2C.5-0.1l1.3-.4a1.85%2C1.85%2C0%2C0%2C0%2C.7-2h0Zm-1.2.9-1.2.4a0.61%2C0.61%2C0%2C0%2C1-.7-0.3l-2.5-6.6-0.2%2C16.8h-9.4L18.60%2C24.00l-2.7%2C6.7a0.52%2C0.52%2C0%2C0%2C1-.66.31h0l-1.1-.4a0.52%2C0.52%2C0%2C0%2C1-.31-0.66v0l3.1-11.3a1.69%2C1.69%2C0%2C0%2C1%2C1.5-1.3h0.2l1-.9h2.3a5.9%2C5.9%2C0%2C1%2C1%2C3.2%2C0h2.3l1.1%2C0.9h0.2a1.71%2C1.71%2C0%2C0%2C1%2C1.6%2C1.2l2.9%2C11.3a0.84%2C0.84%2C0%2C0%2C1-.4.7h0Z%22%20style%3D%22fill%3A%23333%3Bfill-opacity%3A0.2%22%3E%3C%2Fpath%3E%0A%3Cpath%20d%3D%22M15.40%2C38.80h-4a1.64%2C1.64%2C0%2C0%2C1-1.4-1.1l-3.1-8a0.9%2C0.9%2C0%2C0%2C1-.5.1l-1.4.1a1.62%2C1.62%2C0%2C0%2C1-1.6-1.4l-1.1-13.1%2C1.6-1.3a6.87%2C6.87%2C0%2C0%2C1-3-4.6A7.14%2C7.14%200%200%2C1%202%204a7.6%2C7.6%2C0%2C0%2C1%2C4.7-3.1%2C7.14%2C7.14%2C0%2C0%2C1%2C5.5%2C1.1%2C7.28%2C7.28%2C0%2C0%2C1%2C2.3%2C9.6l2.1-.1%2C0.1%2C1c0%2C0.2.1%2C0.5%2C0.1%2C0.8a2.41%2C2.41%2C0%2C0%2C1%2C1%2C1s1.9%2C3.2%2C2.8%2C4.9c0.7%2C1.2%2C2.1%2C4.2%2C2.8%2C5.9a2.1%2C2.1%2C0%2C0%2C1-.8%2C2.6l-0.6.4a1.63%2C1.63%2C0%2C0%2C1-1.5.2l-0.6-.3a8.93%2C8.93%2C0%2C0%2C0%2C.5%2C1.3%2C7.91%2C7.91%2C0%2C0%2C0%2C1.8%2C2.6l0.6%2C0.3v4.6l-4.5-.1a7.32%2C7.32%2C0%2C0%2C1-2.5-1.5l-0.4%2C3.6h0Zm-10-19.2%2C3.5%2C9.8%2C2.9%2C7.5h1.6V35l-1.9-9.4%2C3.1%2C5.4a8.24%2C8.24%2C0%2C0%2C0%2C3.8%2C3.8h2.1v-1.4a14%2C14%2C0%2C0%2C1-2.2-3.1%2C44.55%2C44.55%2C0%2C0%2C1-2.2-8l-1.3-6.3%2C3.2%2C5.6c0.6%2C1.1%2C2.1%2C3.6%2C2.8%2C4.9l0.6-.4c-0.8-1.6-2.1-4.6-2.8-5.8-0.9-1.7-2.8-4.9-2.8-4.9a0.54%2C0.54%2C0%2C0%2C0-.4-0.3l-0.7-.1-0.1-.7a4.33%2C4.33%2C0%2C0%2C0-.1-0.5l-5.3.3%2C2.2-1.9a4.3%2C4.3%2C0%2C0%2C0%2C.9-1%2C5.17%2C5.17%2C0%2C0%2C0%2C.8-4%2C5.67%2C5.67%2C0%2C0%2C0-2.2-3.4%2C5.09%2C5.09%2C0%2C0%2C0-4-.8%2C5.67%2C5.67%2C0%2C0%2C0-3.4%2C2.2%2C5.17%2C5.17%2C0%2C0%2C0-.8%2C4%2C5.67%2C5.67%2C0%2C0%2C0%2C2.2%2C3.4%2C3.13%2C3.13%2C0%2C0%2C0%2C1%2C.5l1.6%2C0.6-3.2%2C2.6%2C1%2C11.5h0.4l-0.3-8.2h0Z%22%20style%3D%22fill%3A%23333%22%3E%3C%2Fpath%3E%0A%3Cpath%20d%3D%22M3.35%2C15.90l1.1%2C12.5a0.39%2C0.39%2C0%2C0%2C0%2C.36.42l0.14%2C0%2C1.4-.1a0.66%2C0.66%2C0%2C0%2C0%2C.5-0.4l-0.2-3.8-3.3-8.6h0Z%22%20style%3D%22fill%3A%23fdbf2d%22%3E%3C%2Fpath%3E%0A%3Cpath%20d%3D%22M5.20%2C28.80l1.1-.1a0.66%2C0.66%2C0%2C0%2C0%2C.5-0.4l-0.2-3.8-1.2-3.1Z%22%20style%3D%22fill%3A%23ce592b%3Bfill-opacity%3A0.25%22%3E%3C%2Fpath%3E%0A%3Cpath%20d%3D%22M21.40%2C35.70l-3.8-1.2-2.7-7.8L12.00%2C15.5l3.4-2.9c0.2%2C2.4%2C2.2%2C14.1%2C3.7%2C17.1%2C0%2C0%2C1.3%2C2.6%2C2.3%2C3.1v2.9m-8.4-8.1-2-.3%2C2.5%2C10.1%2C0.9%2C0.4v-2.9%22%20style%3D%22fill%3A%23e5892b%22%3E%3C%2Fpath%3E%0A%3Cpath%20d%3D%22M17.80%2C25.40c-0.4-1.5-.7-3.1-1.1-4.8-0.1-.4-0.1-0.7-0.2-1.1l-1.1-2-1.7-1.6s0.9%2C5%2C2.4%2C7.1a19.12%2C19.12%2C0%2C0%2C0%2C1.7%2C2.4h0Z%22%20style%3D%22fill%3A%23cf572e%3Bopacity%3A0.6%3Bisolation%3Aisolate%22%3E%3C%2Fpath%3E%0A%3Cpath%20d%3D%22M14.40%2C37.80h-3a0.43%2C0.43%2C0%2C0%2C1-.4-0.4l-3-7.8-1.7-4.8-3-9%2C8.9-.4s2.9%2C11.3%2C4.3%2C14.4c1.9%2C4.1%2C3.1%2C4.7%2C5%2C5.8h-3.2s-4.1-1.2-5.9-7.7a0.59%2C0.59%2C0%2C0%2C0-.6-0.4%2C0.62%2C0.62%2C0%2C0%2C0-.3.7s0.5%2C2.4.9%2C3.6a34.87%2C34.87%2C0%2C0%2C0%2C2%2C6h0Z%22%20style%3D%22fill%3A%23fdbf2d%22%3E%3C%2Fpath%3E%0A%3Cpath%20d%3D%22M15.40%2C12.70l-3.3%2C2.9-8.9.4%2C3.3-2.7%22%20style%3D%22fill%3A%23ce592b%22%3E%3C%2Fpath%3E%0A%3Cpath%20d%3D%22M9.10%2C21.10l1.4-6.2-5.9.5%22%20style%3D%22fill%3A%23cf572e%3Bopacity%3A0.6%3Bisolation%3Aisolate%22%3E%3C%2Fpath%3E%0A%3Cpath%20d%3D%22M12.00%2C13.5a4.75%2C4.75%2C0%2C0%2C1-2.6%2C1.1c-1.5.3-2.9%2C0.2-2.9%2C0s1.1-.6%2C2.7-1%22%20style%3D%22fill%3A%23bb3d19%22%3E%3C%2Fpath%3E%0A%3Ccircle%20cx%3D%227.92%22%20cy%3D%228.19%22%20r%3D%226.3%22%20style%3D%22fill%3A%23fdbf2d%22%3E%3C%2Fcircle%3E%0A%3Cpath%20d%3D%22M4.70%2C13.60a6.21%2C6.21%2C0%2C0%2C0%2C8.4-1.9v-0.1a8.89%2C8.89%2C0%2C0%2C1-8.4%2C2h0Z%22%20style%3D%22fill%3A%23ce592b%3Bfill-opacity%3A0.25%22%3E%3C%2Fpath%3E%0A%3Cpath%20d%3D%22M21.20%2C27.20l0.6-.4a1.09%2C1.09%2C0%2C0%2C0%2C.4-1.3c-0.7-1.5-2.1-4.6-2.8-5.8-0.9-1.7-2.8-4.9-2.8-4.9a1.6%2C1.6%2C0%2C0%2C0-2.17-.65l-0.23.15a1.68%2C1.68%2C0%2C0%2C0-.4%2C2.1s2.3%2C3.9%2C3.1%2C5.3c0.6%2C1%2C2.1%2C3.7%2C2.9%2C5.1a0.94%2C0.94%2C0%2C0%2C0%2C1.24.49l0.16-.09h0Z%22%20style%3D%22fill%3A%23fdbf2d%22%3E%3C%2Fpath%3E%0A%3Cpath%20d%3D%22M19.40%2C19.80c-0.9-1.7-2.8-4.9-2.8-4.9a1.6%2C1.6%2C0%2C0%2C0-2.17-.65l-0.23.15-0.3.3c1.1%2C1.5%2C2.9%2C3.8%2C3.9%2C5.4%2C1.1%2C1.8%2C2.9%2C5%2C3.8%2C6.7l0.1-.1a1.09%2C1.09%2C0%2C0%2C0%2C.4-1.3%2C57.67%2C57.67%2C0%2C0%2C0-2.7-5.6h0Z%22%20style%3D%22fill%3A%23ce592b%3Bfill-opacity%3A0.25%22%3E%3C%2Fpath%3E%0A%3C%2Fsvg%3E%0A" aria-label="Управление человечком в режиме просмотра улиц" style="display: none; height: 40px; width: 40px; position: absolute; transform: translate(-60%, -45%); pointer-events: none;"></div></div><div class="gmnoprint" controlwidth="40" controlheight="40" style="display: none; position: absolute;"><div style="width: 40px; height: 40px;"><button draggable="false" title="Повернуть карту на 90 градусов" aria-label="Повернуть карту на 90 градусов" type="button" class="gm-control-active" style="background: none rgb(255, 255, 255); display: none; border: 0px; margin: 0px 0px 32px; padding: 0px; position: relative; cursor: pointer; user-select: none; width: 40px; height: 40px; top: 0px; left: 0px; overflow: hidden; box-shadow: rgba(0, 0, 0, 0.3) 0px 1px 4px -1px; border-radius: 2px;"><img src="data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%2224%22%20height%3D%2222%22%20viewBox%3D%220%200%2024%2022%22%3E%0A%20%20%3Cpath%20fill%3D%22%23666%22%20fill-rule%3D%22evenodd%22%20d%3D%22M20%2010c0-5.52-4.48-10-10-10s-10%204.48-10%2010v5h5v-5c0-2.76%202.24-5%205-5s5%202.24%205%205v5h-4l6.5%207%206.5-7h-4v-5z%22%20clip-rule%3D%22evenodd%22%2F%3E%0A%3C%2Fsvg%3E%0A" style="height: 18px; width: 18px;"><img src="data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%2224%22%20height%3D%2222%22%20viewBox%3D%220%200%2024%2022%22%3E%0A%20%20%3Cpath%20fill%3D%22%23333%22%20fill-rule%3D%22evenodd%22%20d%3D%22M20%2010c0-5.52-4.48-10-10-10s-10%204.48-10%2010v5h5v-5c0-2.76%202.24-5%205-5s5%202.24%205%205v5h-4l6.5%207%206.5-7h-4v-5z%22%20clip-rule%3D%22evenodd%22%2F%3E%0A%3C%2Fsvg%3E%0A" style="height: 18px; width: 18px;"><img src="data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%2224%22%20height%3D%2222%22%20viewBox%3D%220%200%2024%2022%22%3E%0A%20%20%3Cpath%20fill%3D%22%23111%22%20fill-rule%3D%22evenodd%22%20d%3D%22M20%2010c0-5.52-4.48-10-10-10s-10%204.48-10%2010v5h5v-5c0-2.76%202.24-5%205-5s5%202.24%205%205v5h-4l6.5%207%206.5-7h-4v-5z%22%20clip-rule%3D%22evenodd%22%2F%3E%0A%3C%2Fsvg%3E%0A" style="height: 18px; width: 18px;"></button><button draggable="false" title="Изменить угол обзора" aria-label="Изменить угол обзора" type="button" class="gm-tilt gm-control-active" style="background: none rgb(255, 255, 255); display: block; border: 0px; margin: 0px; padding: 0px; position: relative; cursor: pointer; user-select: none; width: 40px; height: 40px; top: 0px; left: 0px; overflow: hidden; box-shadow: rgba(0, 0, 0, 0.3) 0px 1px 4px -1px; border-radius: 2px;"><img src="data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%2218px%22%20height%3D%2216px%22%20viewBox%3D%220%200%2018%2016%22%3E%0A%20%20%3Cpath%20fill%3D%22%23666%22%20d%3D%22M0%2C16h8V9H0V16z%20M10%2C16h8V9h-8V16z%20M0%2C7h8V0H0V7z%20M10%2C0v7h8V0H10z%22%2F%3E%0A%3C%2Fsvg%3E%0A" style="width: 18px;"><img src="data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%2218px%22%20height%3D%2216px%22%20viewBox%3D%220%200%2018%2016%22%3E%0A%20%20%3Cpath%20fill%3D%22%23333%22%20d%3D%22M0%2C16h8V9H0V16z%20M10%2C16h8V9h-8V16z%20M0%2C7h8V0H0V7z%20M10%2C0v7h8V0H10z%22%2F%3E%0A%3C%2Fsvg%3E%0A" style="width: 18px;"><img src="data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%2218px%22%20height%3D%2216px%22%20viewBox%3D%220%200%2018%2016%22%3E%0A%20%20%3Cpath%20fill%3D%22%23111%22%20d%3D%22M0%2C16h8V9H0V16z%20M10%2C16h8V9h-8V16z%20M0%2C7h8V0H0V7z%20M10%2C0v7h8V0H10z%22%2F%3E%0A%3C%2Fsvg%3E%0A" style="width: 18px;"></button></div></div></div><div class="gmnoprint" style="margin: 10px; z-index: 0; position: absolute; cursor: pointer; left: 0px; top: 0px;"><div class="gm-style-mtc" style="float: left; position: relative;"><div role="button" tabindex="0" title="Показать карту с названиями объектов" aria-label="Показать карту с названиями объектов" aria-pressed="true" draggable="false" style="direction: ltr; overflow: hidden; text-align: center; height: 40px; display: table-cell; vertical-align: middle; position: relative; color: rgb(0, 0, 0); font-family: Roboto, Arial, sans-serif; user-select: none; font-size: 18px; background-color: rgb(255, 255, 255); padding: 0px 17px; border-bottom-left-radius: 2px; border-top-left-radius: 2px; background-clip: padding-box; box-shadow: rgba(0, 0, 0, 0.3) 0px 1px 4px -1px; font-weight: 500;">Карта</div><div style="background-color: white; z-index: -1; padding: 2px; border-bottom-left-radius: 2px; border-bottom-right-radius: 2px; box-shadow: rgba(0, 0, 0, 0.3) 0px 1px 4px -1px; position: absolute; left: 0px; top: 0px; text-align: left; display: none;"><div draggable="false" title="Показать карту рельефа с названиями объектов" style="color: black; font-family: Roboto, Arial, sans-serif; user-select: none; font-size: 18px; background-color: rgb(255, 255, 255); padding: 5px 8px 5px 5px; direction: ltr; text-align: left; white-space: nowrap;"><span role="checkbox" style="vertical-align: middle;"><img src="data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%2224px%22%20height%3D%2224px%22%20viewBox%3D%220%200%2024%2024%22%20fill%3D%22%23000000%22%3E%0A%20%20%20%20%3Cpath%20d%3D%22M0%200h24v24H0z%22%20fill%3D%22none%22%2F%3E%0A%20%20%20%20%3Cpath%20d%3D%22M19%203H5c-1.11%200-2%20.9-2%202v14c0%201.1.89%202%202%202h14c1.11%200%202-.9%202-2V5c0-1.1-.89-2-2-2zm-9%2014l-5-5%201.41-1.41L10%2014.17l7.59-7.59L19%208l-9%209z%22%2F%3E%0A%3C%2Fsvg%3E%0A" style="height: 1em; width: 1em; transform: translateY(0.15em); display: none;"><img src="data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%2224px%22%20height%3D%2224px%22%20viewBox%3D%220%200%2024%2024%22%20fill%3D%22%23000000%22%3E%0A%20%20%20%20%3Cpath%20d%3D%22M19%205v14H5V5h14m0-2H5c-1.1%200-2%20.9-2%202v14c0%201.1.9%202%202%202h14c1.1%200%202-.9%202-2V5c0-1.1-.9-2-2-2z%22%2F%3E%0A%20%20%20%20%3Cpath%20d%3D%22M0%200h24v24H0z%22%20fill%3D%22none%22%2F%3E%0A%3C%2Fsvg%3E%0A" style="height: 1em; width: 1em; transform: translateY(0.15em);"></span><label style="vertical-align: middle; cursor: pointer;">Рельеф</label></div></div></div><div class="gm-style-mtc" style="float: left; position: relative;"><div role="button" tabindex="0" title="Показать спутниковую карту" aria-label="Показать спутниковую карту" aria-pressed="false" draggable="false" style="direction: ltr; overflow: hidden; text-align: center; height: 40px; display: table-cell; vertical-align: middle; position: relative; color: rgb(86, 86, 86); font-family: Roboto, Arial, sans-serif; user-select: none; font-size: 18px; background-color: rgb(255, 255, 255); padding: 0px 17px; border-bottom-right-radius: 2px; border-top-right-radius: 2px; background-clip: padding-box; box-shadow: rgba(0, 0, 0, 0.3) 0px 1px 4px -1px; border-left: 0px;">Спутник</div><div style="background-color: white; z-index: -1; padding: 2px; border-bottom-left-radius: 2px; border-bottom-right-radius: 2px; box-shadow: rgba(0, 0, 0, 0.3) 0px 1px 4px -1px; position: absolute; right: 0px; top: 0px; text-align: left; display: none;"><div draggable="false" title="Показать спутниковую карту с названиями объектов" style="color: black; font-family: Roboto, Arial, sans-serif; user-select: none; font-size: 18px; background-color: rgb(255, 255, 255); padding: 5px 8px 5px 5px; direction: ltr; text-align: left; white-space: nowrap;"><span role="checkbox" style="vertical-align: middle;"><img src="data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%2224px%22%20height%3D%2224px%22%20viewBox%3D%220%200%2024%2024%22%20fill%3D%22%23000000%22%3E%0A%20%20%20%20%3Cpath%20d%3D%22M0%200h24v24H0z%22%20fill%3D%22none%22%2F%3E%0A%20%20%20%20%3Cpath%20d%3D%22M19%203H5c-1.11%200-2%20.9-2%202v14c0%201.1.89%202%202%202h14c1.11%200%202-.9%202-2V5c0-1.1-.89-2-2-2zm-9%2014l-5-5%201.41-1.41L10%2014.17l7.59-7.59L19%208l-9%209z%22%2F%3E%0A%3C%2Fsvg%3E%0A" style="height: 1em; width: 1em; transform: translateY(0.15em);"><img src="data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%2224px%22%20height%3D%2224px%22%20viewBox%3D%220%200%2024%2024%22%20fill%3D%22%23000000%22%3E%0A%20%20%20%20%3Cpath%20d%3D%22M19%205v14H5V5h14m0-2H5c-1.1%200-2%20.9-2%202v14c0%201.1.9%202%202%202h14c1.1%200%202-.9%202-2V5c0-1.1-.9-2-2-2z%22%2F%3E%0A%20%20%20%20%3Cpath%20d%3D%22M0%200h24v24H0z%22%20fill%3D%22none%22%2F%3E%0A%3C%2Fsvg%3E%0A" style="height: 1em; width: 1em; transform: translateY(0.15em); display: none;"></span><label style="vertical-align: middle; cursor: pointer;">Названия объектов</label></div></div></div></div></div></div></div>
-                  </div>
-                </div>
+
               </div>
               <!-- end of .container-->
             </section>
@@ -730,7 +821,7 @@
             </footer>
           </div>
           <div class="col-lg-3 col-12 t-0 order-0 order-lg-1 position-absolute position-lg-relative">
-            <div class="h-lg-100vh sticky-top py-4 sticky-area"><span class="btn-close"><img class="d-none d-lg-block times" src="./Boots4 v3.1 _ Portfolio Template_files/times.svg" width="25" alt=""><img class="d-lg-none" src="./Boots4 v3.1 _ Portfolio Template_files/times-black.svg" width="18" alt=""></span>
+            <div class="h-lg-100vh sticky-top py-4 sticky-area"><span class="btn-close"><img class="d-none d-lg-block times" src="./assets/times.svg" width="25" alt=""><img class="d-lg-none" src="./assets/times-black.svg" width="18" alt=""></span>
               <div class="bg-holder" style="background-image:url(https://prium.github.io/Boots4/assets/img/sidebars/contact.jpg);"></div>
               <!--/.bg-holder-->
               <h1 class="page-title">Contact Us</h1>
@@ -748,29 +839,25 @@
     <!-- ===============================================-->
     <!--    JavaScripts-->
     <!-- ===============================================-->
-    <script type="text/javascript" async="" src="./Boots4 v3.1 _ Portfolio Template_files/recaptcha__ru.js.Без названия"></script><script src="./Boots4 v3.1 _ Portfolio Template_files/jquery.min.js.Без названия"></script>
-    <script src="./Boots4 v3.1 _ Portfolio Template_files/popper.min.js.Без названия"></script>
-    <script src="./Boots4 v3.1 _ Portfolio Template_files/bootstrap.js.Без названия"></script>
-    <script src="./Boots4 v3.1 _ Portfolio Template_files/plugins.js.Без названия"></script>
-    <script src="./Boots4 v3.1 _ Portfolio Template_files/prism.js.Без названия"></script>
-    <script src="./Boots4 v3.1 _ Portfolio Template_files/loaders.css.js.Без названия"></script>
-    <script src="./Boots4 v3.1 _ Portfolio Template_files/stickyfill.min.js.Без названия"></script>
-    <script src="./Boots4 v3.1 _ Portfolio Template_files/remodal.js.Без названия"></script>
-    <script src="./Boots4 v3.1 _ Portfolio Template_files/jquery.tap.js.Без названия"></script>
-    <script src="./Boots4 v3.1 _ Portfolio Template_files/api.js.Без названия"></script>
-    <script src="./Boots4 v3.1 _ Portfolio Template_files/owl.carousel.js.Без названия"></script>
-    <script src="./Boots4 v3.1 _ Portfolio Template_files/isotope.pkgd.min.js.Без названия"></script>
-    <script src="./Boots4 v3.1 _ Portfolio Template_files/packery-mode.pkgd.min.js.Без названия"></script>
-    <script src="./Boots4 v3.1 _ Portfolio Template_files/lightbox.js.Без названия"></script>
-    <script src="./Boots4 v3.1 _ Portfolio Template_files/theme.js.Без названия"></script>
-    <script src="./Boots4 v3.1 _ Portfolio Template_files/js" async=""></script>
+    <script type="text/javascript" async="" src="./js/recaptcha__ru.js"></script>
+    <script src="./js/jquery.min.js"></script>
+    <script src="./js/popper.min.js"></script>
+    <script src="./js/bootstrap.js"></script>
+    <script src="./js/plugins.js"></script>
+    <script src="./js/prism.js"></script>
+    <script src="./js/loaders.css.js"></script>
+    <script src="./js/stickyfill.min.js"></script>
+    <script src="./js/remodal.js"></script>
+    <script src="./js/jquery.tap.js"></script>
+    <script src="./js/api.js"></script>
+    <script src="./js/owl.carousel.js"></script>
+    <script src="./js/isotope.pkgd.min.js"></script>
+    <script src="./js/packery-mode.pkgd.min.js"></script>
+    <script src="./js/lightbox.js"></script>
+    <script src="./js/theme.js"></script>
+    <script src="./js/js" async=""></script>
   
 
-<div id="lightboxOverlay" class="lightboxOverlay" style="display: none;"></div><div id="lightbox" class="lightbox" style="display: none;"><div class="lb-outerContainer"><div class="lb-container"><img class="lb-image" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="><div class="lb-nav"><a class="lb-prev" href="https://prium.github.io/Boots4/nav-four-item-two-column.html"></a><a class="lb-next" href="https://prium.github.io/Boots4/nav-four-item-two-column.html"></a></div><div class="lb-loader"><a class="lb-cancel"></a></div></div></div><div class="lb-dataContainer"><div class="lb-data"><div class="lb-details"><span class="lb-caption"></span><span class="lb-number"></span></div><div class="lb-closeContainer"><a class="lb-close"></a></div></div></div></div><div class="remodal-overlay remodal-is-closed" style="display: none;"></div><div class="remodal-wrapper remodal-is-closed" style="display: none;"><div id="videoModal" class="remodal remodal-video remodal-is-initialized remodal-is-closed" tabindex="-1">
-        <button data-remodal-action="close" class="remodal-close"></button>
-        <div class="embed-responsive embed-responsive-16by9">
-          <div id="videoModalIframeWrapper"></div>
-        </div>
-      </div></div></body>
+</body>
       
     </html>

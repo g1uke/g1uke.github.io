@@ -955,8 +955,10 @@ p{
   }
 
   .slider__item_text {
-    
+    background-color: #fff;
+    padding: 10px;
     color: #000000;
+    border-radius: 0 10px;
   }
 
 

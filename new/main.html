@@ -61,29 +61,7 @@
   <body>
     <main>
 
-<style>
-				.vmvname {
-				font-family: 'Exo 2', sans-serif;
-				color: black;
-				
-				}
-				.vmvname2 {
-				font-family: 'Kaushan Script', cursive;
-				font-size: 1rem;
-				color: white;
-				background-color:black;
-				margin:0;
-				display:block;
-				}
-				.vmvname3 {
-				font-family: 'Exo 2', sans-serif;
-				margin:0;
-				color: black;
-				}
-				
-				
-				
-        </style>
+
         
 
       <!-- ============================================-->
@@ -91,11 +69,14 @@
       <section class="p-0" id="home" style="display: block;">
         <div class="container-fluid p-0 minh-100vh">
           <div class="position-relative px-3 w-lg-50 position-lg-absolute" id="baseContent" style="left: 0px;">
-            <div class="row align-items-center minh-50vh justify-content-center py-1 minh-lg-100vh">
-              <div class="col-12 col-sm-8  text-center" style="min-height: 250px;">
-                <a href="https://prium.github.io/Boots4/index.html">
-                  <img class="mb-5 img-fluid" src="./img/svg/vmv-logo.svg" alt="">
-                </a>
+            <div class="row align-items-center minh-50vh justify-content-center py-3 minh-lg-100vh">
+              <div class="col-sm-9 col-md-8 col-lg-9 col-xxl-7 text-center contain" >
+
+                  <a href="https://prium.github.io/Boots4/index.html">
+                    <img class="filter img-fluid" src="./img/svg/vmv.svg" />
+                  </a>
+              
+                  
              
 <style>
 
@@ -103,18 +84,19 @@
   font-family: 'Exo 2', sans-serif;
   justify-content: center;
   align-items: center;
-  
+  display: flex;
 }
 .container777 p {
   font-size: 1rem;
+  letter-spacing: 0.1rem;
   padding: 0.5rem;
-  font-weight: bold;
+  
   line-height: 1;
   text-align: center;
   overflow: hidden;
 }
 .container777 p span.typed-text {
-  font-weight: normal;
+  font-weight: 700;
   color: #000;
 }
 .container777 p span.cursor {
@@ -123,6 +105,7 @@
   margin-left: 0.1rem;
   width: 10px;
   animation: blink 1s infinite;
+  
 }
 .container777 p span.cursor.typing {
   animation: none;
@@ -134,7 +117,45 @@
   99% { background-color: transparent; }
   100%  { background-color: #000; }
 }
+
+.contain{
+  animation:fade 5s infinite;
+}
+.filter{
+  filter:url(#glitch);
+  
+}
+.here{
+
+  animation:type 1s steps(8);
+  
+  letter-spacing:0.1em;
+}
+@keyframes type{
+  from{width:0;}
+  to{width:100px;}
+}
+@keyframes fade{
+  0%{opacity:1;}
+  94%{opacity:1;}
+  95%{opacity:0;}
+  96%{opacity:1;}
+  97%{opacity:0;}
+  99%{opacity:1;}
+  100%{opacity:0;}
+}
+@keyframes in{
+  from{opacity:0}
+  to{opacity:1}
+}
+
 </style>
+
+
+
+
+
+
 
 <div class="container777 font-weight-light mt-4 fs-2 fs-sm-3 fs-xl-3">
   <p><span class="typed-text"></span><span class="cursor">&nbsp;</span></p>
@@ -839,7 +860,26 @@ document.addEventListener("DOMContentLoaded", function() { // On DOM Load initia
     <script src="./js/theme.js"></script>
     
   
-
+    <svg style="position: fixed;">
+      <filter id="glitch">
+     
+        <feOffset in="red" result="red" dx="-15">
+          <animate attributeName="dx" attributeType="XML" values="0; -3; 1; 0; 2; -1; 0;" dur="1s" repeatCount="indefinite"/>
+        </feOffset>
+        <feOffset in="green" result="green" dx="-10">
+          <animate attributeName="dx" attributeType="XML" values="0; 2; -1; 1; 0; 1; 0;" dur="1s" repeatCount="indefinite"/>
+        </feOffset>
+        <feOffset in="blue" result="blue" dx="-5">
+          <animate attributeName="dx" attributeType="XML" values="0; 1; 2; -4; 2; 6; 0;" dur="1s" repeatCount="indefinite"/>
+        </feOffset>
+        
+        <feBlend in="red" in2="green" mode="screen" result="blend" />
+        <feBlend in="blend" in2="blue" mode="screen" result="blend" />
+      <feGaussianBlur in="blend" stdDeviation="1">
+        <animate attributeName="stdDeviation" attributeType="XML" values="0; 2; 1; 0.3; 2; 1; 0.5 ;3; 0" dur="5s" repeatCount="indefinite"/>
+      </feGaussianBlur>
+      </filter>
+    </svg>
 </body>
       
     </html>

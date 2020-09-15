@@ -4,20 +4,201 @@
   <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
+	<link href="https://fonts.googleapis.com/css2?family=Exo+2:wght@300&display=swap" rel="stylesheet">
     <title>Максим « g1uke » Ведерник | Web Design, CSS, HTML, PHP ...</title>
     <link rel="icon" type="image/png" href="favicon.png" />
     <link href="./css/style.css" rel="stylesheet">
 </head>
   <body>
     <main>
+<style>
+  .logo-glitch {
+   
+  }
+  
 
+  .logo-glitch img {
+      width: 400px;
+      height: 300px;
+      position: absolute;
+    text-align: center;
+
+    /*Create overlap*/
+    
+    margin: 0;
+    line-height: 0;
+    /*Animation*/
+    
+    animation: glitch1 2.5s infinite;
+  }
+  
+  .logo-glitch img:nth-child(2) {
+
+    animation: glitch2 2.5s infinite;
+  }
+  
+  .logo-glitch img:nth-child(3) {
+
+    animation: glitch3 2.5s infinite;
+  }
+  /*Keyframes*/
+  
+  @keyframes glitch1 {
+    
+    0% {
+      transform: none;
+     
+    }
+    7% {
+      transform: translate(2px, 3px);
+    
+    }
+    10% {
+      transform: none;
+    
+    }
+    27% {
+      transform: none;
+    
+    }
+    30% {
+      transform: translate(5px, 2px);
+  
+    }
+    35% {
+      transform: none;
+
+    }
+    52% {
+      transform: none;
+ 
+    }
+    55% {
+      transform: translate(5px, 1px);
+    
+    }
+    50% {
+      transform: none;
+     
+    }
+    72% {
+      transform: none;
+ 
+    }
+    75% {
+      transform: translate(2px, 6px);
+   
+    }
+    80% {
+      transform: none;
+ 
+    }
+    100% {
+      transform: none;
+     
+    }
+  }
+  
+  @keyframes glitch2 {
+    0% {
+      transform: none;
+      opacity: 1;
+    }
+    7% {
+        transform: none;
+      opacity: 1;
+    }
+    10% {
+        transform: translate(-2px, -3px);
+      opacity: 1;
+    }
+    27% {
+      transform: none;
+      opacity: 1;
+    }
+    30% {
+      transform: translate(-5px, -2px);
+      opacity: 1;
+    }
+    35% {
+      transform: none;
+      opacity: 1;
+    }
+    52% {
+      transform: none;
+    
+    }
+    55% {
+      transform: translate(-5px, -1px);
+      
+    }
+    50% {
+      transform: none;
+    
+    }
+    72% {
+      transform: none;
+      
+    }
+    75% {
+      transform: translate(-2px, -6px);
+     
+    }
+    80% {
+      transform: none;
+      
+    }
+    100% {
+      transform: none;
+     
+    }
+  }
+  
+  @keyframes glitch3 {
+
+    35% {
+      transform: none;
+      opacity: 1;
+    }
+    52% {
+      transform: none;
+      opacity: 1;
+    }
+    55% {
+        transform: none;
+      opacity: 1;
+    }
+    50% {
+      transform: none;
+      opacity: 1;
+    }
+    72% {
+      transform: none;
+      opacity: 1;
+    }
+    75% {
+        transform: none;
+      opacity: 1;
+    }
+    80% {
+      transform: none;
+      opacity: 1;
+    }
+    100% {
+      transform: none;
+      opacity: 1;
+    }
+  }
+</style>
       <section class="p-0" id="home" style="display: block;">
         <div class="container-fluid p-0 minh-100vh">
           <div class="position-relative px-3 w-lg-50 position-lg-absolute" id="baseContent" style="left: 0px;">
             <div class="row align-items-center minh-50vh justify-content-center py-3 minh-lg-100vh">
-              <div class="col-sm-9 col-md-8 col-lg-9 col-xxl-7 text-center " >
+              <div class="col-sm-9 col-md-8 col-lg-9 col-xxl-7 text-center logo-glitch" >
                     <a href="/">
-                      <img class="filter img-fluid contain" src="./img/svg/vmv.svg" />
+                      <img class="img-fluid" src="./img/svg/vmv-b.svg" />
+                      <img class="img-fluid" src="./img/svg/vmv-r.svg" />
+                      <img class="img-fluid" src="./img/svg/vmv.svg" />
                     </a>
                     <div class="container777 font-weight-light mt-4 fs-2 fs-sm-3 fs-xl-3">
                       <p><span class="typed-text"></span><span class="cursor">&nbsp;</span></p>
@@ -33,7 +214,7 @@
                 <!--/.bg-holder-->
                 <div class="sidebar-item">
                   <img class="mb-2 mb-lg-3 nav-icon" src="./assets/heart.svg" alt="">
-                  <h3 class="font-weight-light text-white fs-1 fs-xl-3">Работы</h3>
+                  <h2 class="font-weight-light text-white fs-1 fs-xl-3">Работы</h2>
                 </div>
               </div>
               <div class="col-6 minh-50vh h-lg-100vh sidebar-item-wrapper py-5" data-content="contact">
@@ -41,7 +222,7 @@
                 <!--/.bg-holder-->
                 <div class="sidebar-item">
                   <img class="mb-2 mb-lg-3 nav-icon" src="./assets/placeholder.svg" alt="">
-                  <h3 class="font-weight-light text-white fs-1 fs-xl-3">Контакты</h3>
+                  <h2 class="font-weight-light text-white fs-1 fs-xl-3">Контакты</h2>
                 </div>
               </div>
             </div>
@@ -195,19 +376,19 @@
       <filter id="glitch">
      
         <feOffset in="red" result="red" dx="-15">
-          <animate attributeName="dx" attributeType="XML" values="0; -1; 1; 0; 2; -1; 0;" dur="1s" repeatCount="indefinite"/>
+          <animate attributeName="dx" attributeType="XML" values="0; -3; 1; 0; 2; -1; 0;" dur="1s" repeatCount="indefinite"/>
         </feOffset>
         <feOffset in="green" result="green" dx="-10">
-          <animate attributeName="dx" attributeType="XML" values="0; 1; -1; 1; 0; 1; 0;" dur="1s" repeatCount="indefinite"/>
+          <animate attributeName="dx" attributeType="XML" values="0; 2; -1; 1; 0; 1; 0;" dur="1s" repeatCount="indefinite"/>
         </feOffset>
         <feOffset in="blue" result="blue" dx="-5">
-          <animate attributeName="dx" attributeType="XML" values="0; 1; 1; -1; 2; 1; 0;" dur="1s" repeatCount="indefinite"/>
+          <animate attributeName="dx" attributeType="XML" values="0; 1; 2; -4; 2; 6; 0;" dur="1s" repeatCount="indefinite"/>
         </feOffset>
         
         <feBlend in="red" in2="green" mode="screen" result="blend" />
         <feBlend in="blend" in2="blue" mode="screen" result="blend" />
       <feGaussianBlur in="blend" stdDeviation="1">
-        <animate attributeName="stdDeviation" attributeType="XML" values="1; 0.5; 0.1; 0.5; 0.1; 1; 0.5 ;3; 1" dur="5s" repeatCount="indefinite"/>
+        <animate attributeName="stdDeviation" attributeType="XML" values="0; 2; 1; 0.3; 2; 1; 0.5 ;3; 0" dur="5s" repeatCount="indefinite"/>
       </feGaussianBlur>
       </filter>
     </svg>

@@ -18,7 +18,21 @@
                 
             </div>
             <div class="footer__card">
-                <p style="text-align: right;"><a target="_blank" href="http://vmv.su"><img title="Graphic design &amp; development by Maxim Vedernik" src="/public/themes/barkulab/img/vmv.png"></a></p>
+                <p style="text-align: right;">
+                <!--LiveInternet counter--><a href="//www.liveinternet.ru/click"
+                target="_blank"><img id="licnt994E" width="31" height="31" style="border:0" 
+                title="LiveInternet"
+                src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAEALAAAAAABAAEAAAIBTAA7"
+                alt=""/></a><script>(function(d,s){d.getElementById("licnt994E").src=
+                "//counter.yadro.ru/hit?t45.3;r"+escape(d.referrer)+
+                ((typeof(s)=="undefined")?"":";s"+s.width+"*"+s.height+"*"+
+                (s.colorDepth?s.colorDepth:s.pixelDepth))+";u"+escape(d.URL)+
+                ";h"+escape(d.title.substring(0,150))+";"+Math.random()})
+                (document,screen)</script><!--/LiveInternet-->
+
+                <a target="_blank" href="http://vmv.su"><img title="Graphic design &amp; development by Maxim Vedernik" src="/public/themes/barkulab/img/vmv.png"></a>
+            
+                </p>
             </div>
 
         </div>            

@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="ru">
+	{{ partial "head.html" . }}
+<body>
+	<div class="wrapper">
+		<header class="header" id="top">
+			<div id="button-up">^</div>
+			<div class="header__container">
+				<div class="header__logo">
+					<a href="{{ .Site.BaseURL }}">// {{ .Site.Params.sitebrand }}</a>
+					<span class="header__cursor"></span>
+				</div>
+				<div class="header__burger">
+					<span></span>
+				</div>
+				{{ partial "nav.html" . }}
+			</div>
+		</header>
+		
+		<main class="main">
+			

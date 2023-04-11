@@ -1,0 +1,12 @@
+<nav class="header__menu">
+  <div class="sz-h100"></div>
+  <ul class="header__menu_list">
+    {{ range.Site.Menus.main }}
+    <li class="header__menu_item"><a href="{{ .URL }}" class="header__menu_link">{{ .Name }}</a></li>
+    {{ end }}
+  </ul>
+  <div class="header__donate">
+    <a href="/donate" title="Donate"><i class="g1con__dollars"></i></a>
+  </div>
+</nav>
+

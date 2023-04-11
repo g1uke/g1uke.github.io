@@ -1,0 +1,222 @@
+@font-face {
+  font-family: 'g1con';
+  src:  url('../fonts/g1con/g1con.eot?aut9p3');
+  src:  url('../fonts/g1con/g1con.eot?aut9p3#iefix') format('embedded-opentype'),
+    url('../fonts/g1con/g1con.ttf?aut9p3') format('truetype'),
+    url('../fonts/g1con/g1con.woff?aut9p3') format('woff'),
+    url('../fonts/g1con/g1con.svg?aut9p3#g1con') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+[class^="g1con__"], [class*=" g1con__"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'g1con' !important;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.g1con__dollars:before {
+  content: "\e900";
+}
+.g1con__discord:before {
+  content: "\e901";
+}
+.g1con__envelope:before {
+  content: "\e902";
+}
+.g1con__facebook:before {
+  content: "\e903";
+}
+.g1con__instagram1:before {
+  content: "\e904";
+}
+.g1con__phone:before {
+  content: "\e905";
+}
+.g1con__poo:before {
+  content: "\e906";
+}
+.g1con__telegram:before {
+  content: "\e907";
+}
+.g1con__tiktok:before {
+  content: "\e908";
+}
+.g1con__twitch:before {
+  content: "\e909";
+}
+.g1con__twitter1:before {
+  content: "\e90a";
+}
+.g1con__viber:before {
+  content: "\e90b";
+}
+.g1con__vk1:before {
+  content: "\e90c";
+}
+.g1con__whatsapp1:before {
+  content: "\e90d";
+}
+.g1con__youtube1:before {
+  content: "\e90e";
+}
+.g1con__camera:before {
+  content: "\e90f";
+}
+.g1con__music:before {
+  content: "\e911";
+}
+.g1con__file-empty:before {
+  content: "\e924";
+}
+.g1con__file-text2:before {
+  content: "\e926";
+}
+.g1con__price-tag:before {
+  content: "\e935";
+}
+.g1con__coin-dollar:before {
+  content: "\e93b";
+}
+.g1con__alarm:before {
+  content: "\e950";
+}
+.g1con__floppy-disk:before {
+  content: "\e962";
+}
+.g1con__bubble:before {
+  content: "\e96b";
+}
+.g1con__bubble2:before {
+  content: "\e96e";
+}
+.g1con__quotes-left:before {
+  content: "\e977";
+}
+.g1con__quotes-right:before {
+  content: "\e978";
+}
+.g1con__hour-glass:before {
+  content: "\e979";
+}
+.g1con__lock:before {
+  content: "\e98f";
+}
+.g1con__unlocked:before {
+  content: "\e990";
+}
+.g1con__bug:before {
+  content: "\e999";
+}
+.g1con__mug:before {
+  content: "\e9a2";
+}
+.g1con__fire:before {
+  content: "\e9a9";
+}
+.g1con__menu:before {
+  content: "\e9bd";
+}
+.g1con__menu2:before {
+  content: "\e9be";
+}
+.g1con__menu3:before {
+  content: "\e9bf";
+}
+.g1con__menu4:before {
+  content: "\e9c0";
+}
+.g1con__download2:before {
+  content: "\e9c5";
+}
+.g1con__attachment:before {
+  content: "\e9cd";
+}
+.g1con__bookmark:before {
+  content: "\e9d2";
+}
+.g1con__new-tab:before {
+  content: "\ea7e";
+}
+.g1con__embed2:before {
+  content: "\ea80";
+}
+.g1con__share2:before {
+  content: "\ea82";
+}
+.g1con__google-drive:before {
+  content: "\ea8f";
+}
+.g1con__telegram1:before {
+  content: "\ea95";
+}
+.g1con__twitch1:before {
+  content: "\ea9f";
+}
+.g1con__steam:before {
+  content: "\eaad";
+}
+.g1con__dropbox:before {
+  content: "\eaae";
+}
+.g1con__onedrive:before {
+  content: "\eaaf";
+}
+.g1con__github:before {
+  content: "\eab0";
+}
+
+.contact_social {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.social {
+    display: block; 
+}
+.social a {
+    font-size: 1.6em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    transition: all .5s ease 0s;
+    border-radius: 60px;
+    width: 60px;
+    height: 60px;
+    color: #fff;
+    background-color: #1a1a1a;
+}
+
+@media (max-width: 400px) {
+    .social a {
+      font-size: 1.3em;
+      border-radius: 50px;
+      width: 50px;
+      height: 50px;
+  } 
+}
+	
+.social a:hover {
+    transform: rotate(360deg);
+    transition: all 0.5s ease 0s;
+    opacity: 1;
+    color: #fff;
+    
+    background-color: #3b047c;
+    box-shadow: 0px 0px 25px 0px rgb(63 8 128 / 50%);
+    -webkit-box-shadow: 0px 0px 25px 0px rgb(63 8 128 / 21%);
+    -moz-box-shadow: 0px 0px 25px 0px rgba(63,8,128,0.21);
+}
+

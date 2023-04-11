@@ -1,0 +1,24 @@
+{{ define "main" }}
+
+<div class="main__container">
+	
+	<article class="main__post">
+		<h1 class="main__post_title">
+			{{ .Title }}
+		</h1>
+		<div class="main__post_content single">
+			<div class="main__post_content">
+				{{ .Content }}
+			</div>
+		</div>
+	</article>
+	{{ if .Date }}
+	<div class="main__post_info">
+		<time datetime="{{ .Date.Format "2006-01-02" }}">
+			{{ .Date.Format "2006-01-02" }}
+		</time>
+	</div>
+	{{ end }}
+</div>
+
+{{ end }}

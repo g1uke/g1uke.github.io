@@ -1,0 +1,83 @@
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+	{{ $paginator := .Paginate (where .Site.RegularPages ".Params.post" "!=" false) }}
+
+	{{ if .IsHome }}
+		{{ if eq $paginator.PageNumber 1 }}
+			<title>{{ .Title }}</title>
+			<meta name="description" content="{{ .Site.Params.description }}" />
+			<meta property="og:title" content="{{ .Title }}" />
+			<meta property="og:description"	content="{{ .Site.Params.description }}"/>
+			<meta property="og:url" content="{{ .Permalink }}" />
+			<meta property="og:image" content="{{ .Site.BaseURL }}{{ .Site.Params.ogimg }}" />
+			<meta name="twitter:image" content="{{ .Site.BaseURL }}{{ .Site.Params.ogimg }}">
+			<meta name="twitter:card" content="summary_large_image" />
+			<meta name="twitter:site" content="@g1uke" />
+			<meta name="twitter:creator" content="@g1uke" />
+		{{ else }}
+			<title>{{ .Title }} | Page {{ $paginator.PageNumber }}</title>
+			<meta name="description" content="This is page {{ $paginator.PageNumber }} of our content." />
+		{{ end }}
+		{{- if site.Params.analytics.googlesiteVerificationTag }}
+		<meta name="google-site-verification" content="{{ site.Params.analytics.googlesiteVerificationTag }}">
+		{{- end }}
+		{{- if site.Params.analytics.yandexsiteVerificationTag }}
+		<meta name="yandex-verification" content="{{ site.Params.analytics.yandexsiteVerificationTag }}">
+		{{- end }}
+	{{ else }}
+		{{ if .Params.seoTitle }}
+			<title>{{ .Params.seoTitle }} | {{ .Site.Title }}</title>
+			<meta property="og:title" content="{{ .Params.seoTitle }}" />
+		{{ else }}
+			<title>{{ .Title }} | {{ .Site.Title }}</title>
+		{{ end }}
+		{{ if .Params.description }}
+			<meta name="description" content="{{ .Description }}" />
+			<meta property="og:description"	content="{{ .Description }}"/>
+		{{ else }}
+			<meta name="description" content="{{ .Site.Params.description }}" />
+			<meta property="og:description"	content="{{ .Site.Params.description }}"/>
+		{{ end }}
+		{{ if .Params.thumbnail }}
+    <meta property="og:image" content="{{ .Site.BaseURL }}{{ .Params.thumbnail }}">
+		<meta name="twitter:image" content="{{ .Site.BaseURL }}{{ .Params.thumbnail }}">
+		{{ else }}
+		<meta property="og:image" content="{{ .Site.BaseURL }}{{ .Site.Params.ogimg }}" />
+		<meta name="twitter:image" content="{{ .Site.BaseURL }}{{ .Site.Params.ogimg }}">
+    {{ end }}
+		<meta property="og:url" content="{{ .Permalink }}" />
+		<meta name="twitter:card" content="summary_large_image" />
+		<meta name="twitter:site" content="@g1uke" />
+		<meta name="twitter:creator" content="@g1uke" />
+	{{ end}}
+	
+	{{ if .Params.noindex }}
+	<meta name="robots" content="noindex" />
+	{{ end }}
+
+	<link rel="icon" href="{{ .Site.BaseURL }}favicon.ico">
+	<link rel="alternate icon" href="{{ .Site.BaseURL }}favicon.png" type="image/svg+xml">
+	<link rel="apple-touch-icon" href="{{ .Site.BaseURL }}images/favicons/apple.png">
+	<link rel="manifest" href="{{ .Site.BaseURL }}manifest.webmanifest">
+	<link rel="canonical" href="{{ .Permalink }}" />
+	{{ $css_normalize := resources.Get "css/normalize.css" }}
+	{{ $css_buttonup := resources.Get "css/button-up.css" }}
+	{{ $css_embed := resources.Get "css/embed.css" }}
+	{{ $css_social := resources.Get "css/social.css" }}
+	{{ $css := resources.Get "css/style.css" }}
+	{{ $css_header := resources.Get "css/header.css" }}
+	{{ $css_main := resources.Get "css/main.css" }}
+	{{ $css_footer := resources.Get "css/footer.css" }}
+	{{ $style := slice $css_normalize $css_buttonup $css_embed $css $css_header $css_main $css_footer $css_social | resources.Concat "css/style.css" | minify | fingerprint "sha512" }}
+	<link rel="stylesheet" type="text/css" href="{{ $style.RelPermalink }}" integrity="{{ $style.Data.Integrity }}" media='all' />
+	<!-- {{ with .OutputFormats.Get "rss" -}}
+		{{ printf `<link rel="%s" type="%s" href="%s" title="%s" />` .Rel .MediaType.Type .Permalink $.Site.Title | safeHTML }}
+	{{ end -}} -->
+	<!-- <title>{{ if not .IsHome }}{{ .Title }} | {{ end }}{{ .Site.Title }}</title> -->
+	{{ template "_internal/google_analytics.html" . }}
+  {{ template "_internal/google_analytics_async.html" . }}
+	{{ partial "yandexm.html" . }}
+</head>

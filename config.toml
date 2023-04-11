@@ -1,0 +1,75 @@
+baseURL = "https://vmv.su/"
+title = "Максим Ведерник @ g1uke"
+theme = "g1"
+
+enableRobotsTXT = true
+googleAnalytics = "UA-98643051-1"
+disqusShortname = 'g1uke'
+
+[Taxonomies]
+    tag = "tags"
+    # category = "categories"
+
+[minify]
+  minifyOutput = true
+
+[menu]
+  [[menu.main]]
+    identifier = "works"
+    name = "Работы"
+    url = "/works"
+    weight = 10
+
+  # [[menu.main]]
+
+  #   name = "Записи"
+  #   url = "/posts"
+  #   weight = 20
+
+  [[menu.main]]
+    identifier = "contacts"
+    name = "Контакты"
+    url = "/contacts"
+    weight = 30
+
+[params]
+  sitebrand = "vmv.su"
+  description = "Web Design, CSS, HTML, PHP, JS ..."
+  yandexmetrika = true
+  telegramcomments = "WvouaWlt"
+  ogimg = "images/ogimg.jpg"
+  [[params.social]]
+    icon = "g1con__envelope"
+    name = "Email"
+    url = "mailto:g1uke@vmv.su"
+    weight = 10
+
+  [[params.social]]
+    icon = "g1con__telegram"
+    name = "Telegram"
+    url = "https://t.me/g1uke"
+    target = "_blank"
+    weight = 20
+  
+  # [[params.social]]
+  #   icon = "g1con__vk1"
+  #   name = "VK"
+  #   url = "https://vk.com/g1uke"
+  #   target = "_blank"
+  #   weight = 30
+  
+  [[params.social]]
+    icon = "g1con__discord"
+    name = "Discord - g1uke#0950"
+    url = "https://discord.gg/YQHR2KX"
+    target = "_blank"
+    weight = 50
+  
+  # [[params.social]]
+  #   icon = "g1con__twitch1"
+  #   name = "Twitch"
+  #   url = "https://twitch.tv/g1uke"
+  #   target = "_blank"
+  #   weight = 40
+
+

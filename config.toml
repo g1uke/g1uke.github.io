@@ -41,7 +41,7 @@ disqusShortname = 'g1uke'
   [[params.social]]
     icon = "g1con__envelope"
     name = "Email"
-    url = "mailto:g1uke@vmv.su"
+    url = "mailto:g1uke@pm.me"
     weight = 10
 
   [[params.social]]

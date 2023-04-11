@@ -33,7 +33,7 @@ disqusShortname = 'g1uke'
     weight = 30
 
 [params]
-  sitebrand = "vmv.su"
+  sitebrand = "g1uke.github.io"
   description = "Web Design, CSS, HTML, PHP, JS ..."
   yandexmetrika = true
   telegramcomments = "WvouaWlt"

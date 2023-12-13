@@ -60,7 +60,7 @@ disqusShortname = 'g1uke'
   
   [[params.social]]
     icon = "g1con__discord"
-    name = "Discord @g1uke"
+    name = "Discord - g1uke"
     url = "https://discord.gg/YQHR2KX"
     target = "_blank"
     weight = 50

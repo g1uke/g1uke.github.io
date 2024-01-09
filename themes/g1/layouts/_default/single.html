@@ -12,15 +12,7 @@
 			</div>
 		</div>
 	</article>
-	{{ if .Date }}
-	<div class="main__post_info">
-		<time datetime="{{ .Date.Format "2006-01-02" }}">
-			{{ .Date.Format "2006-01-02" }}
-		</time>
-	</div>
-	{{ end }}
-</div>
-{{ if .Params.comments }}
+	{{ if .Params.comments }}
 	<div class="main__comments">
 		<div class="main__comments_spoilbut"><span title="Комментарии"><i class="g1con__bubble"></i></span></div>
 		<div class="main__comments_spoil" id="comments">
@@ -29,4 +21,13 @@
 		</div>
 	</div>
 	{{ end }}
+	{{ if .Date }}
+	<div class="main__post_info">
+		<time datetime="{{ .Date.Format "2006-01-02" }}">
+			{{ .Date.Format "2006-01-02" }}
+		</time>
+	</div>
+	{{ end }}
+</div>
+
 {{ end }}

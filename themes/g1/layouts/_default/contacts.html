@@ -18,15 +18,7 @@
 			</div>
 		</div>
 	</article>
-	{{ if .Params.comments }}
-	<div class="main__comments">
-		<div class="main__comments_spoilbut"><span title="Комментарии"><i class="g1con__bubble"></i></span></div>
-		<div class="main__comments_spoil" id="comments">
-			<!-- {{ template "_internal/disqus.html" . }} -->
-			<script async src="https://comments.app/js/widget.js?3" data-comments-app-website="{{ .Site.Params.telegramcomments }}" data-limit="5" data-color="3B047C" data-colorful="1"></script>
-		</div>
-	</div>
-	{{ end }}
+
 	<!-- <article class="main__post">
 		<h2>
 			Отправить сообщение
@@ -62,5 +54,13 @@
 	{{ end }}
 
 </div>
-
+{{ if .Params.comments }}
+	<div class="main__comments">
+		<div class="main__comments_spoilbut"><span title="Комментарии"><i class="g1con__bubble"></i></span></div>
+		<div class="main__comments_spoil" id="comments">
+			<!-- {{ template "_internal/disqus.html" . }} -->
+			<script async src="https://comments.app/js/widget.js?3" data-comments-app-website="{{ .Site.Params.telegramcomments }}" data-limit="5" data-color="3B047C" data-colorful="1"></script>
+		</div>
+	</div>
+{{ end }}
 {{ end }}

@@ -1,5 +1,5 @@
 baseURL = "https://g1uke.github.io/"
-title = "Максим Ведерник @ g1uke"
+title = "Максим Ведерник @g1uke"
 theme = "g1"
 
 enableRobotsTXT = true
@@ -34,7 +34,7 @@ disqusShortname = 'g1uke'
 
 [params]
   sitebrand = "g1uke.github.io"
-  description = "Web Design, HTML, CSS, JS , PHP, Python ..."
+  description = "Web Design, HTML, CSS, JS, PHP, Python"
   yandexmetrika = true
   telegramcomments = "WvouaWlt"
   ogimg = "images/ogimg.jpg"

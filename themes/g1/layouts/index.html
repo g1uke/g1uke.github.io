@@ -1,9 +1,9 @@
 {{ define "main" }}
 
 <div class="main__logo_container">
-	<img class="main__logo" src="images/logo.svg" alt="">
-	<h1 class="main__title">Максим&nbsp;Ведерник @&nbsp;g1uke</h1>
-	<p class="main__disc">WEB DESIGN, HTML, CSS, JS, PHP, PYTHON</p>
+	<img class="main__logo" src="images/g2.png" alt="">
+	<h1 class="main__title">{{ .Site.Title }}</h1>
+	<p class="main__disc">{{ .Site.Params.description }}</p>
 </div>
 
 {{ end }}

@@ -67,8 +67,8 @@
 	left: 0;
 	right: 0;
 	bottom: 0;
-   -webkit-animation-duration:4s;
-   animation-duration:4s;
+   -webkit-animation-duration:2s;
+   animation-duration:2s;
    -webkit-animation-timing-function:linear;
    animation-timing-function:linear;
    -webkit-animation-iteration-count:infinite;
@@ -100,7 +100,7 @@
    animation-direction:alternate
   } */
 
-  @-webkit-keyframes glitch-anim {
+  /* @-webkit-keyframes glitch-anim {
    0% {
 	opacity:1;
 	-webkit-transform:translateZ(0);
@@ -363,9 +363,9 @@
 	clip-path:polygon(0 0,0 0,0 0,0 0);
 	opacity:1
    }
-  }
+  } */
 
-  /* @-webkit-keyframes glitch-anim {
+  @-webkit-keyframes glitch-anim {
 	0% {
 	 opacity:1;
 	 -webkit-transform:translateZ(0);
@@ -628,7 +628,8 @@
 	 clip-path:polygon(0 0,0 0,0 0,0 0);
 	 opacity:1
 	}
-   } */
+   }
+
 .main__post {
 	display: block;
 	width: inherit;

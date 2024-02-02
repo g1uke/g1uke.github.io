@@ -28,6 +28,7 @@
 	font-style: black;
 	font-size: 2em;
 	letter-spacing: 0.049em;
+	text-align: center;
 }
 
 .main__disc {
@@ -35,6 +36,7 @@
 	letter-spacing: 2px;
 	font-size: 14px;
 	text-transform: uppercase;
+	text-align: center;
 }
 
 /* .main__logo {
@@ -56,7 +58,7 @@
 	width: 200px;
 	height: 200px;
 	border-radius: 10px;
-	background-color: #00000008;
+	/* background-color: #00000008; */
   }
   
   /* .main__logo_glitch {
@@ -591,13 +593,11 @@
 	}
 
 	.main__title {
-
-		text-align: center;
+		font-size: 1.7em;
 	}
 
 	.main__disc {
-		font-size: 12px;
-		text-align: center;
+		font-size: 0.7em;
 	}
 }
 
@@ -631,6 +631,15 @@
 	}
 }
 
+@media (max-width: 400px) {
+.main__title {
+	font-size: 1.5em;
+}
+
+.main__disc {
+	font-size: 0.6em;
+}
+}
 .form-group button {
 	margin: 15px 0 0 0;
 	background-image: url(../images/fundo.png);

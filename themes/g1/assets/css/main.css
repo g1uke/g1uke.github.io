@@ -61,7 +61,7 @@
 	/* background-color: #00000008; */
   }
   
-  .main__logo_glitch {
+  /* .main__logo_glitch {
 	position: absolute;
 	top: 0;
 	left: 0;
@@ -77,9 +77,9 @@
    animation-name:glitch-anim;
    -webkit-animation-direction:alternate;
    animation-direction:alternate
-  }
+  } */
   
-  /* .main__logo_glitch {
+  .main__logo_glitch {
 	position: absolute;
 	top: 0;
 	left: 0;
@@ -98,7 +98,7 @@
    animation-name:glitch-anim;
    -webkit-animation-direction:alternate;
    animation-direction:alternate
-  } */
+  }
 
   /* @-webkit-keyframes glitch-anim {
    0% {
@@ -366,7 +366,7 @@
   } */
 
   @-webkit-keyframes glitch-anim {
-	/* 0% {
+	0% {
 	 opacity:1;
 	 -webkit-transform:translateZ(0);
 	 transform:translateZ(0);
@@ -402,7 +402,7 @@
 	 clip-path:polygon(0 54%,100% 54%,100% 44%,0 44%);
 	 -webkit-transform:translate3d(5px,0,0);
 	 transform:translate3d(5px,0,0)
-	} */
+	}
 	13% {
 	 -webkit-clip-path:polygon(0 54%,100% 54%,100% 44%,0 44%);
 	 clip-path:polygon(0 54%,100% 54%,100% 44%,0 44%);
@@ -498,7 +498,7 @@
 	}
    }
    @keyframes glitch-anim {
-	/* 0% {
+	0% {
 	 opacity:1;
 	 -webkit-transform:translateZ(0);
 	 transform:translateZ(0);
@@ -534,7 +534,7 @@
 	 clip-path:polygon(0 54%,100% 54%,100% 44%,0 44%);
 	 -webkit-transform:translate3d(5px,0,0);
 	 transform:translate3d(5px,0,0)
-	} */
+	}
 	13% {
 	 -webkit-clip-path:polygon(0 54%,100% 54%,100% 44%,0 44%);
 	 clip-path:polygon(0 54%,100% 54%,100% 44%,0 44%);

@@ -1,7 +1,11 @@
 {{ define "main" }}
 
 <div class="main__logo_container">
-	<img class="main__logo" src="images/g2.png" alt="">
+	<div class="main__logo">
+		<div class="main__logo_img"></div>
+		<div class="main__logo_glitch"></div>
+	</div>
+	<!-- <img class="main__logo" src="images/g2.png" alt=""> -->
 	<h1 class="main__title">{{ .Site.Title }}</h1>
 	<p class="main__disc">{{ .Site.Params.description }}</p>
 </div>

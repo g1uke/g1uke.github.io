@@ -945,6 +945,25 @@
 	margin: 15px -2px 0 0;
 }
 
+.main__success {
+	display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.main__success button {
+	margin: 15px 0 0;
+    background-image: url(../images/fundo.png);
+    border: 0;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.main__success button:hover {
+	background-color: #390a6e;
+    color: #fff;
+}
+
+
 
 /* .form-tit {
   color: #75797e;

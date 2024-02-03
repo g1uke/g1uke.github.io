@@ -926,6 +926,7 @@
 	border-radius: 5px;
 	resize: none;
 	background-image: url(../images/fundo.png);
+	font-size: 0.9em;
 }
 
 .form-control:focus {

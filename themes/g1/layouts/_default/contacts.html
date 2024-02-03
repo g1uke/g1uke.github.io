@@ -18,15 +18,7 @@
 			</div>
 		</div>
 	</article>
-	{{ if .Params.comments }}
-	<div class="main__comments">
-		<div class="main__comments_spoilbut"><span title="Комментарии"><i class="g1con__bubble"></i></span></div>
-		<div class="main__comments_spoil" id="comments">
-			<!-- {{ template "_internal/disqus.html" . }} -->
-			<script async src="https://comments.app/js/widget.js?3" data-comments-app-website="{{ .Site.Params.telegramcomments }}" data-limit="5" data-color="3B047C" data-colorful="1"></script>
-		</div>
-	</div>
-	{{ end }}
+
 	<!-- <article class="main__post">
 		<h2>
 			Отправить сообщение
@@ -50,6 +42,45 @@
 			</div>
 		</div>
 	</article> -->
+
+
+	<article class="main__post">
+		<h2>
+			Отправить сообщение
+		</h2>
+		<div class="main__post_content single">
+			<div class="main__post_content">
+				<form class="zform" action="https://api.web3forms.com/submit" method="POST"></form>
+				<input type="hidden" name="access_key" value="61f0382f-efcd-48e4-859b-b52e3f622c63">
+				<input type="checkbox" name="botcheck" class="hidden" style="display: none;">
+
+					<div class="form-group">
+						<input class="form-control left" type="text" name="name" placeholder="Имя" required="required">
+						<input class="form-control right" type="email" name="email" placeholder="Email" required="required">
+					</div>
+					<div class="form-group">
+						<textarea class="form-control mess" rows="6" name="message" placeholder="Сообщение" required="required"></textarea>
+					</div>
+					<div class="form-group">
+						<button class="" type="submit">Отправить</button>
+						
+						<div class="h-captcha main__netlify-recaptcha" data-captcha="true"></div>
+					</div>
+				</form>
+				<script src="https://web3forms.com/client/script.js" async defer></script>
+			</div>
+		</div>
+	</article>
+
+	{{ if .Params.comments }}
+	<div class="main__comments">
+		<div class="main__comments_spoilbut"><span title="Комментарии"><i class="g1con__bubble"></i></span></div>
+		<div class="main__comments_spoil" id="comments">
+			<!-- {{ template "_internal/disqus.html" . }} -->
+			<script async src="https://comments.app/js/widget.js?3" data-comments-app-website="{{ .Site.Params.telegramcomments }}" data-limit="5" data-color="3B047C" data-colorful="1"></script>
+		</div>
+	</div>
+	{{ end }}
 
 	{{ .Content }}
 

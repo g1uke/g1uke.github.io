@@ -950,15 +950,16 @@
     align-items: center;
     flex-direction: column;
 }
-.main__success button {
+.main__success a {
 	margin: 15px 0 0;
     background-image: url(../images/fundo.png);
     border: 0;
     padding: 10px;
     border-radius: 5px;
     cursor: pointer;
+	text-decoration: none;
 }
-.main__success button:hover {
+.main__success a:hover {
 	background-color: #390a6e;
     color: #fff;
 }

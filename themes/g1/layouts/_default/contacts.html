@@ -53,9 +53,9 @@
 				<form class="zform" action="https://api.web3forms.com/submit" method="POST">
 				<input type="hidden" name="access_key" value="61f0382f-efcd-48e4-859b-b52e3f622c63">
 				<input type="checkbox" name="botcheck" class="hidden" style="display: none;">
-				<input type="hidden" name="subject" value="New Submission from Web3Forms">
-				<input type="hidden" name="from_name" value="Your Website Name">
-				<input type="hidden" name="redirect" value="/success">
+				<input type="hidden" name="subject" value="Новое сообщение на сайте {{ .Site.Params.sitebrand }}">
+				<input type="hidden" name="from_name" value="Сообщение на {{ .Site.Params.sitebrand }}">
+				<input type="hidden" name="redirect" value="{{ .Site.BaseURL }}success">
 
 					<div class="form-group">
 						<input class="form-control left" type="text" name="name" placeholder="Имя" required="required">

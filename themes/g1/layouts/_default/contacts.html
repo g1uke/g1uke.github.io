@@ -53,6 +53,9 @@
 				<form class="zform" action="https://api.web3forms.com/submit" method="POST"></form>
 				<input type="hidden" name="access_key" value="61f0382f-efcd-48e4-859b-b52e3f622c63">
 				<input type="checkbox" name="botcheck" class="hidden" style="display: none;">
+				<input type="hidden" name="subject" value="New Submission from Web3Forms">
+				<input type="hidden" name="from_name" value="Your Website Name">
+				<input type="hidden" name="redirect" value="https://web3forms.com/success">
 
 					<div class="form-group">
 						<input class="form-control left" type="text" name="name" placeholder="Имя" required="required">
@@ -66,8 +69,9 @@
 						
 						<div class="h-captcha main__netlify-recaptcha" data-captcha="true"></div>
 					</div>
+					<script src="https://web3forms.com/client/script.js" async defer></script>
 				</form>
-				<script src="https://web3forms.com/client/script.js" async defer></script>
+				
 			</div>
 		</div>
 	</article>

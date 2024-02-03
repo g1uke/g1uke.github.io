@@ -61,7 +61,7 @@
 	/* background-color: #00000008; */
   }
   
-  /* .main__logo_glitch {
+  .main__logo_glitch {
 	position: absolute;
 	top: 0;
 	left: 0;
@@ -77,9 +77,9 @@
    animation-name:glitch-anim;
    -webkit-animation-direction:alternate;
    animation-direction:alternate
-  } */
+  }
   
-  .main__logo_glitch {
+  /* .main__logo_glitch {
 	position: absolute;
 	top: 0;
 	left: 0;
@@ -98,7 +98,7 @@
    animation-name:glitch-anim;
    -webkit-animation-direction:alternate;
    animation-direction:alternate
-  }
+  } */
 
   /* @-webkit-keyframes glitch-anim {
    0% {

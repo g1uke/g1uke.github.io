@@ -2,7 +2,6 @@
 title: 404
 noindex: true
 layout: page
-permalink: /404.html
 ---
 
 Нет такой страницы :(

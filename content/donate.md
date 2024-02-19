@@ -9,6 +9,6 @@ sitemap_exclude: true
 
 **WMB** `B554905322337`  
 
-**DonationAlerts** `{{< newtabref  href="http://donationalerts.ru/r/g1uke" title="donationalerts.ru/r/g1uke" >}}`
+**DonationAlerts** `{{< newtabref  href="https://www.donationalerts.com/r/g1uke" title="donationalerts.com/r/g1uke" >}}`
 
 **Boosty** `{{< newtabref  href="https://boosty.to/g1uke" title="boosty.to/g1uke" >}}`

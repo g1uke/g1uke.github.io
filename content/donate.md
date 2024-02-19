@@ -1,6 +1,7 @@
 ---
 title: "Donate"
 sitemap_exclude: true
+draft: true
 ---
 
 **BTC** `19CPLx2osrpCK8JtXeThzRryAmkEyRBqyo`  

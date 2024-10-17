@@ -9,4 +9,5 @@ tags:
 - ggnuha
 ---
 
+![Alt text](x_a027203f.jpg "a title")
 test text

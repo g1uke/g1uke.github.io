@@ -52,12 +52,12 @@
   .main__logo_img,
   .main__logo_glitch {
 	display: block;
-	background-image: url('../images/g2.png');
+	background-image: url('../images/logo.jpg');
 	background-repeat: no-repeat;
 	background-size: cover;
 	width: 200px;
 	height: 200px;
-	border-radius: 10px;
+	border-radius: 100px;
 	/* background-color: #00000008; */
   }
   

@@ -1,3 +1,17 @@
-{{ partial "header.html" . }}
+<!DOCTYPE html>
+<html lang="ru">
+	{{ partial "head.html" . }}
+<body>
+	<div class="wrapper">
+{{ if not (eq .Layout "home") }}
+  {{ partial "header.html" . }}
+{{ end }}
 {{ block "main" . }}{{ end }}
-{{ partial "footer.html" . }}
+{{ if not (eq .Layout "home") }}
+  {{ partial "footer.html" . }}
+{{ end }}
+    </div>
+<script src="/js/jquery-3.6.0.min.js"></script>
+<script src="/js/script.js"></script>
+</body>
+</html>

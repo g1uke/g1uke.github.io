@@ -30,10 +30,15 @@
 	/* font-size: 2em; */
 	/* letter-spacing: 0.049em; */
 	text-align: center;
-	
 }
 
+.main__title a {
+	text-decoration: none;
+}
 
+.main__title a:hover {
+	text-decoration: underline;
+}
 
 .main__disc {
 	margin-top: 0px;

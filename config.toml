@@ -7,18 +7,18 @@ googleAnalytics = "G-6J1PVGJXMX"
 disqusShortname = 'g1uke'
 
 [Taxonomies]
-    tag = "tags"
+    # tag = "tags"
     # category = "categories"
 
 [minify]
   minifyOutput = true
 
 [menu]
-  [[menu.main]]
-    identifier = "works"
-    name = "Работы"
-    url = "/works"
-    weight = 10
+  # [[menu.main]]
+  #   identifier = "works"
+  #   name = "Работы"
+  #   url = "/works"
+  #   weight = 10
 
   # [[menu.main]]
 
@@ -51,23 +51,9 @@ disqusShortname = 'g1uke'
     target = "_blank"
     weight = 20
   
-  # [[params.social]]
-  #   icon = "g1con__vk1"
-  #   name = "VK"
-  #   url = "https://vk.com/g1uke"
-  #   target = "_blank"
-  #   weight = 30
-  
   [[params.social]]
     icon = "g1con__discord"
     name = "Discord - g1uke"
     url = "https://discord.gg/YQHR2KX"
     target = "_blank"
     weight = 50
-  
-  # [[params.social]]
-  #   icon = "g1con__twitch1"
-  #   name = "Twitch"
-  #   url = "https://twitch.tv/g1uke"
-  #   target = "_blank"
-  #   weight = 40

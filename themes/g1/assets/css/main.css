@@ -23,16 +23,22 @@
 }
 
 .main__title {
-	font-family: 'SourceSans3';
-	margin: 10px 0;
+	/* font-family: 'SourceSans3'; */
+	font-family: open sans, sans-serif;
+	margin: 10px 0 0;
 	font-style: black;
-	font-size: 2em;
-	letter-spacing: 0.049em;
+	/* font-size: 2em; */
+	/* letter-spacing: 0.049em; */
 	text-align: center;
-	
 }
 
+.main__title a {
+	text-decoration: none;
+}
 
+.main__title a:hover {
+	text-decoration: underline;
+}
 
 .main__disc {
 	margin-top: 0px;
